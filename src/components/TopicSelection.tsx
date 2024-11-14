@@ -1,5 +1,5 @@
-import React from 'react';
-import { Check } from 'lucide-react';
+import React, { useState } from 'react';
+import { Check, ChevronDown, ChevronUp } from 'lucide-react';
 
 interface Topic {
   id: string;
@@ -12,6 +12,7 @@ interface TopicSelectionProps {
   selectedTopics: string[];
   onTopicToggle: (topicId: string) => void;
   isTestMode?: boolean;
+  onStart: (questionsPerTopic: number) => void;
 }
 
 const topics: Topic[] = [
@@ -157,18 +158,135 @@ const topics: Topic[] = [
   }
 ];
 
-const TopicSelection: React.FC<TopicSelectionProps> = ({ selectedTopics, onTopicToggle, isTestMode = false }) => {
+const TopicSelection: React.FC<TopicSelectionProps> = ({ selectedTopics, onTopicToggle, isTestMode = false, onStart }) => {
+  const [totalQuestions, setTotalQuestions] = useState(30);
   const categories = Array.from(new Set(topics.map(topic => topic.category)));
+
+  const handleSelectAllTopics = () => {
+    const allTopicIds = topics.map(topic => topic.id);
+    const allSelected = allTopicIds.every(id => selectedTopics.includes(id));
+    
+    if (allSelected) {
+      // Deselect all topics
+      allTopicIds.forEach(id => onTopicToggle(id));
+    } else {
+      // Select all unselected topics
+      allTopicIds.forEach(id => {
+        if (!selectedTopics.includes(id)) {
+          onTopicToggle(id);
+        }
+      });
+    }
+  };
+
+  const handleSelectCategory = (category: string) => {
+    const categoryTopicIds = topics
+      .filter(topic => topic.category === category)
+      .map(topic => topic.id);
+    
+    const allCategorySelected = categoryTopicIds.every(id => selectedTopics.includes(id));
+    
+    if (allCategorySelected) {
+      // Deselect all topics in category
+      categoryTopicIds.forEach(id => onTopicToggle(id));
+    } else {
+      // Select all unselected topics in category
+      categoryTopicIds.forEach(id => {
+        if (!selectedTopics.includes(id)) {
+          onTopicToggle(id);
+        }
+      });
+    }
+  };
+
+  const getQuestionsPerTopic = () => {
+    if (selectedTopics.length === 0) return 0;
+    return Math.max(1, Math.floor(totalQuestions / selectedTopics.length));
+  };
+
+  const questionsPerTopic = getQuestionsPerTopic();
+  const actualTotalQuestions = questionsPerTopic * selectedTopics.length;
 
   return (
     <div className="space-y-8">
-      {categories.map(category => (
-        <div key={category} className={`${isTestMode ? 'bg-gray-800 border border-rose-500/20' : 'bg-gray-800'} rounded-xl p-6`}>
-          <h3 className={`text-xl font-semibold mb-4 ${isTestMode ? 'text-rose-400' : 'text-white'}`}>{category}</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {topics
-              .filter(topic => topic.category === category)
-              .map(topic => (
+      <div className={`${isTestMode ? 'bg-gray-800 border border-rose-500/20' : 'bg-gray-800'} rounded-xl p-6`}>
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
+          <div className="flex items-center gap-4">
+            <button
+              onClick={handleSelectAllTopics}
+              className={`px-4 py-2 rounded-lg font-medium ${
+                isTestMode
+                  ? 'bg-rose-600/20 hover:bg-rose-600/30 text-rose-400'
+                  : 'bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-400'
+              }`}
+            >
+              {topics.every(topic => selectedTopics.includes(topic.id))
+                ? 'Deselect All Topics'
+                : 'Select All Topics'}
+            </button>
+
+            <div className="flex items-center gap-4">
+              <label className="text-gray-300">Total Questions:</label>
+              <input
+                type="number"
+                min="1"
+                max="100"
+                value={totalQuestions}
+                onChange={(e) => setTotalQuestions(Math.max(1, Math.min(100, parseInt(e.target.value) || 1)))}
+                className="w-20 px-3 py-2 bg-gray-700 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              />
+            </div>
+          </div>
+
+          <div className="flex items-center gap-4">
+            {selectedTopics.length > 0 && (
+              <span className="text-sm text-gray-400">
+                ({questionsPerTopic} questions per topic, {actualTotalQuestions} total)
+              </span>
+            )}
+            <button
+              onClick={() => onStart(questionsPerTopic)}
+              disabled={selectedTopics.length === 0}
+              className={`px-6 py-3 rounded-lg font-semibold ${
+                selectedTopics.length > 0
+                  ? isTestMode
+                    ? 'bg-rose-600 hover:bg-rose-700'
+                    : 'bg-emerald-600 hover:bg-emerald-700'
+                  : 'bg-gray-700 cursor-not-allowed'
+              } text-white`}
+            >
+              Start {isTestMode ? 'Test' : 'Practice'}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {categories.map(category => {
+        const categoryTopics = topics.filter(topic => topic.category === category);
+        const allCategorySelected = categoryTopics.every(topic => 
+          selectedTopics.includes(topic.id)
+        );
+
+        return (
+          <div key={category} className={`${isTestMode ? 'bg-gray-800 border border-rose-500/20' : 'bg-gray-800'} rounded-xl p-6`}>
+            <div className="flex justify-between items-center mb-4">
+              <h3 className={`text-xl font-semibold ${isTestMode ? 'text-rose-400' : 'text-white'}`}>
+                {category}
+              </h3>
+              <button
+                onClick={() => handleSelectCategory(category)}
+                className={`px-3 py-1.5 rounded-lg text-sm font-medium ${
+                  isTestMode
+                    ? 'bg-rose-600/20 hover:bg-rose-600/30 text-rose-400'
+                    : 'bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-400'
+                }`}
+              >
+                {allCategorySelected ? 'Deselect All' : 'Select All'}
+              </button>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {categoryTopics.map(topic => (
                 <button
                   key={topic.id}
                   onClick={() => onTopicToggle(topic.id)}
@@ -193,9 +311,10 @@ const TopicSelection: React.FC<TopicSelectionProps> = ({ selectedTopics, onTopic
                   )}
                 </button>
               ))}
+            </div>
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 };
