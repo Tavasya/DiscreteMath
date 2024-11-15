@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Check, ChevronDown, ChevronUp } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 interface Topic {
   id: string;
@@ -209,15 +209,15 @@ const TopicSelection: React.FC<TopicSelectionProps> = ({ selectedTopics, onTopic
 
   return (
     <div className="space-y-8">
-      <div className={`${isTestMode ? 'bg-gray-800 border border-rose-500/20' : 'bg-gray-800'} rounded-xl p-6`}>
+      <div className={`bg-gray-50 rounded-xl p-6 ${isTestMode ? 'border border-red-100' : ''}`}>
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
           <div className="flex items-center gap-4">
             <button
               onClick={handleSelectAllTopics}
               className={`px-4 py-2 rounded-lg font-medium ${
-                isTestMode
-                  ? 'bg-rose-600/20 hover:bg-rose-600/30 text-rose-400'
-                  : 'bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-400'
+                isTestMode 
+                  ? 'bg-red-50 hover:bg-red-100 text-red-900'
+                  : 'bg-gray-200 hover:bg-gray-300 text-gray-900'
               }`}
             >
               {topics.every(topic => selectedTopics.includes(topic.id))
@@ -226,34 +226,38 @@ const TopicSelection: React.FC<TopicSelectionProps> = ({ selectedTopics, onTopic
             </button>
 
             <div className="flex items-center gap-4">
-              <label className="text-gray-300">Total Questions:</label>
+              <label className="text-gray-700">Total Questions:</label>
               <input
                 type="number"
                 min="1"
                 max="100"
                 value={totalQuestions}
                 onChange={(e) => setTotalQuestions(Math.max(1, Math.min(100, parseInt(e.target.value) || 1)))}
-                className="w-20 px-3 py-2 bg-gray-700 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className={`w-20 px-3 py-2 bg-white border rounded-lg text-gray-900 focus:outline-none focus:ring-2 ${
+                  isTestMode 
+                    ? 'border-red-200 focus:ring-red-200'
+                    : 'border-gray-300 focus:ring-gray-200'
+                }`}
               />
             </div>
           </div>
 
           <div className="flex items-center gap-4">
             {selectedTopics.length > 0 && (
-              <span className="text-sm text-gray-400">
+              <span className="text-sm text-gray-600">
                 ({questionsPerTopic} questions per topic, {actualTotalQuestions} total)
               </span>
             )}
             <button
               onClick={() => onStart(questionsPerTopic)}
               disabled={selectedTopics.length === 0}
-              className={`px-6 py-3 rounded-lg font-semibold ${
+              className={`px-6 py-3 rounded-lg font-semibold text-white ${
                 selectedTopics.length > 0
                   ? isTestMode
-                    ? 'bg-rose-600 hover:bg-rose-700'
-                    : 'bg-emerald-600 hover:bg-emerald-700'
-                  : 'bg-gray-700 cursor-not-allowed'
-              } text-white`}
+                    ? 'bg-red-600 hover:bg-red-700'
+                    : 'bg-gray-900 hover:bg-gray-800'
+                  : 'bg-gray-300 cursor-not-allowed'
+              }`}
             >
               Start {isTestMode ? 'Test' : 'Practice'}
             </button>
@@ -268,17 +272,18 @@ const TopicSelection: React.FC<TopicSelectionProps> = ({ selectedTopics, onTopic
         );
 
         return (
-          <div key={category} className={`${isTestMode ? 'bg-gray-800 border border-rose-500/20' : 'bg-gray-800'} rounded-xl p-6`}>
+          <div 
+            key={category} 
+            className={`bg-gray-50 rounded-xl p-6 ${isTestMode ? 'border border-red-100' : ''}`}
+          >
             <div className="flex justify-between items-center mb-4">
-              <h3 className={`text-xl font-semibold ${isTestMode ? 'text-rose-400' : 'text-white'}`}>
-                {category}
-              </h3>
+              <h3 className="text-xl font-semibold text-gray-900">{category}</h3>
               <button
                 onClick={() => handleSelectCategory(category)}
                 className={`px-3 py-1.5 rounded-lg text-sm font-medium ${
-                  isTestMode
-                    ? 'bg-rose-600/20 hover:bg-rose-600/30 text-rose-400'
-                    : 'bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-400'
+                  isTestMode 
+                    ? 'bg-red-50 hover:bg-red-100 text-red-900'
+                    : 'bg-gray-200 hover:bg-gray-300 text-gray-900'
                 }`}
               >
                 {allCategorySelected ? 'Deselect All' : 'Select All'}
@@ -293,17 +298,25 @@ const TopicSelection: React.FC<TopicSelectionProps> = ({ selectedTopics, onTopic
                   className={`flex items-center justify-between p-3 rounded-lg text-left transition-colors ${
                     selectedTopics.includes(topic.id)
                       ? isTestMode
-                        ? 'bg-rose-600 hover:bg-rose-700'
-                        : 'bg-emerald-600 hover:bg-emerald-700'
+                        ? 'bg-red-600 hover:bg-red-700 text-white'
+                        : 'bg-gray-900 hover:bg-gray-800 text-white'
                       : isTestMode
-                        ? 'bg-gray-700 border border-rose-500/20 hover:bg-gray-600'
-                        : 'bg-gray-700 hover:bg-gray-600'
+                        ? 'bg-red-50 hover:bg-red-100 text-gray-900'
+                        : 'bg-gray-100 hover:bg-gray-200 text-gray-900'
                   }`}
                 >
                   <div>
                     <span className="block font-medium">{topic.name}</span>
                     {topic.description && (
-                      <span className="text-sm text-gray-300">{topic.description}</span>
+                      <span className={`text-sm ${
+                        selectedTopics.includes(topic.id)
+                          ? 'text-gray-300'
+                          : isTestMode
+                            ? 'text-red-700'
+                            : 'text-gray-600'
+                      }`}>
+                        {topic.description}
+                      </span>
                     )}
                   </div>
                   {selectedTopics.includes(topic.id) && (

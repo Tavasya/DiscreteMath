@@ -42,8 +42,8 @@ const QuestionSlide: React.FC<QuestionSlideProps> = ({
       }`}
     >
       <div className="mb-8">
-        <h2 className="text-xl font-semibold mb-2">{question.question}</h2>
-        <p className="text-gray-400 text-sm">Topic: {question.topic}</p>
+        <h2 className="text-xl font-semibold text-gray-900 mb-2">{question.question}</h2>
+        <p className="text-gray-600 text-sm">Topic: {question.topic}</p>
       </div>
 
       <div className="space-y-4">
@@ -54,9 +54,11 @@ const QuestionSlide: React.FC<QuestionSlideProps> = ({
             className={`w-full text-left p-4 rounded-lg transition-colors ${
               userAnswer === index
                 ? isTestMode
-                  ? 'bg-rose-600 text-white'
-                  : 'bg-emerald-600 text-white'
-                : 'bg-gray-700 hover:bg-gray-600 text-gray-100'
+                  ? 'bg-red-600 text-white'
+                  : 'bg-gray-900 text-white'
+                : isTestMode
+                ? 'bg-red-50 hover:bg-red-100 text-gray-900'
+                : 'bg-gray-100 hover:bg-gray-200 text-gray-900'
             }`}
           >
             {option}

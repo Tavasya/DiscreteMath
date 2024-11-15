@@ -37,13 +37,13 @@ const QuestionNav: React.FC<QuestionNavProps> = ({
                 ${
                   isCurrent
                     ? isTestMode
-                      ? 'bg-rose-600 text-white'
-                      : 'bg-emerald-600 text-white'
+                      ? 'bg-red-600 text-white'
+                      : 'bg-gray-900 text-white'
                     : isAnswered
                     ? isTestMode
-                      ? 'bg-rose-600/20 text-rose-400'
-                      : 'bg-emerald-600/20 text-emerald-400'
-                    : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                      ? 'bg-red-100 text-red-900'
+                      : 'bg-gray-200 text-gray-900'
+                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                 }
               `}
             >
