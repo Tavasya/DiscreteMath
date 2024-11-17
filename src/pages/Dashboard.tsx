@@ -1,50 +1,49 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Brain, CheckCircle, XCircle, Circle, Lock, LineChart } from 'lucide-react';
 import { LineChart as RechartsLineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
+import { Brain, CheckCircle, XCircle, Circle, Lock, LineChart, Trophy } from 'lucide-react';
 
 const activityData = [
-  { day: 'Mon', score: 85 },
-  { day: 'Tue', score: 72 },
-  { day: 'Wed', score: 90 },
-  { day: 'Thu', score: 88 },
-  { day: 'Fri', score: 85 },
-  { day: 'Sat', score: 92 },
-  { day: 'Sun', score: 88 },
+  { date: '2024-03-01', score: 85 },
+  { date: '2024-03-05', score: 72 },
+  { date: '2024-03-10', score: 90 },
+  { date: '2024-03-15', score: 88 },
+  { date: '2024-03-20', score: 85 },
+  { date: '2024-03-25', score: 92 },
+  { date: '2024-03-30', score: 88 },
 ];
 
 const assignments = [
   {
     id: 1,
-    title: 'Set Theory Basics',
-    dueDate: '2024-03-20',
-    time: '10:30 AM',
+    type: 'daily',
+    topics: ['Set Theory - Basic Set Operations', 'Logic - Truth Tables'],
+    questions: 15,
+    dateAssigned: '2024-03-20',
+    dateDue: '2024-03-22',
     status: 'todo',
-    score: null
-  },
+    completedQuestions: 0
+  }
+];
+
+const completedItems = [
   {
     id: 2,
-    title: 'Logic Gates Practice',
-    dueDate: '2024-03-21',
-    time: '11:45 AM',
-    status: 'todo',
-    score: null
+    type: 'daily',
+    topics: ['Set Theory - Venn Diagrams', 'Logic - Propositional Logic'],
+    questions: 20,
+    dateCompleted: '2024-03-21',
+    score: 92,
+    timeSpent: '45:30'
   },
   {
     id: 3,
-    title: 'Graph Theory Introduction',
-    dueDate: '2024-03-19',
-    time: '09:15 AM',
-    status: 'completed',
-    score: 85
-  },
-  {
-    id: 4,
-    title: 'Probability Concepts',
-    dueDate: '2024-03-18',
-    time: '02:30 PM',
-    status: 'completed',
-    score: 92
+    type: 'test',
+    topic: 'Graph Theory',
+    section: 'Basic Concepts',
+    dateCompleted: '2024-03-15',
+    score: 100,
+    timeSpent: '58:20'
   }
 ];
 
@@ -60,12 +59,6 @@ const topicTests = [
     status: 'available',
     requiredScore: 80,
     prerequisites: []
-  },
-  {
-    topic: 'Graph Theory',
-    status: 'completed',
-    score: 92,
-    completedDate: '2024-03-15'
   },
   {
     topic: 'Counting & Probability',
@@ -112,115 +105,152 @@ const Dashboard = () => {
           {/* Main Content */}
           <div className="col-span-12 lg:col-span-8 space-y-8">
             {/* Daily Assignments */}
-            <div className="bg-gray-50 rounded-xl p-6">
-              <div className="flex justify-between items-center mb-6">
-                <h2 className="text-xl font-semibold text-gray-900">Daily Assignments</h2>
-              </div>
-              <div className="space-y-4 max-h-[300px] overflow-y-auto custom-scrollbar">
-                {assignments.map((assignment) => (
-                  <div
-                    key={assignment.id}
-                    className="flex items-center justify-between bg-white p-4 rounded-lg"
-                  >
-                    <div className="flex items-center gap-4">
-                      <div className={`w-1 h-12 rounded-full ${
-                        assignment.status === 'completed' 
-                          ? 'bg-green-500' 
-                          : 'bg-blue-500'
-                      }`} />
-                      <div>
-                        <h3 className="font-medium text-gray-900">{assignment.title}</h3>
-                        <p className="text-sm text-gray-500">
-                          Due {assignment.dueDate} at {assignment.time}
-                        </p>
+            {assignments.length > 0 && (
+              <div className="bg-gray-50 rounded-xl p-6">
+                <div className="flex justify-between items-center mb-6">
+                  <h2 className="text-xl font-semibold text-gray-900">Daily Assignments</h2>
+                </div>
+                <div className="space-y-4">
+                  {assignments.map((assignment) => (
+                    <div
+                      key={assignment.id}
+                      className="flex items-center justify-between bg-white p-4 rounded-lg"
+                    >
+                      <div className="flex items-center gap-4">
+                        <div className="w-1 h-12 rounded-full bg-blue-500" />
+                        <div>
+                          <h3 className="font-medium text-gray-900">
+                            Daily Practice - Due {new Date(assignment.dateDue).toLocaleDateString('en-US', {
+                              month: 'long',
+                              day: 'numeric'
+                            })}
+                          </h3>
+                          <div className="flex items-center gap-4 mt-1 text-sm text-gray-500">
+                            <span>Topics: {assignment.topics.join(', ')}</span>
+                            <span>{assignment.questions} questions</span>
+                          </div>
+                        </div>
                       </div>
+                      <Link
+                        to="/practice"
+                        className="px-4 py-2 bg-gray-900 text-white text-sm rounded-lg hover:bg-gray-800"
+                      >
+                        Start
+                      </Link>
                     </div>
-                    <div className="flex items-center gap-4">
-                      {assignment.status === 'completed' ? (
-                        <span className="text-sm">
-                          <span className="font-medium text-gray-900">{assignment.score}</span>
-                          <span className="text-gray-500">/100</span>
-                        </span>
-                      ) : (
-                        <Link
-                          to="/practice"
-                          className="px-4 py-2 bg-gray-900 text-white text-sm rounded-lg hover:bg-gray-800"
-                        >
-                          Start
-                        </Link>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Topic Tests */}
-            <div className="bg-gray-50 rounded-xl p-6">
-              <div className="flex justify-between items-center mb-6">
-                <div>
-                  <h2 className="text-xl font-semibold text-gray-900">Topic Tests</h2>
-                  <p className="text-sm text-gray-500 mt-1">Complete tests to unlock advanced topics</p>
+                  ))}
                 </div>
               </div>
+            )}
 
-              <div className="space-y-4">
-                {topicTests.map((test, index) => (
-                  <div 
-                    key={index}
-                    className="bg-white p-4 rounded-lg"
-                  >
-                    <div className="flex items-center justify-between">
+            {/* Topic Tests */}
+            {topicTests.length > 0 && (
+              <div className="bg-gray-50 rounded-xl p-6">
+                <div className="flex justify-between items-center mb-6">
+                  <div>
+                    <h2 className="text-xl font-semibold text-gray-900">Topic Tests</h2>
+                    <p className="text-sm text-gray-500 mt-1">Complete tests to unlock advanced topics</p>
+                  </div>
+                </div>
+
+                <div className="space-y-4">
+                  {topicTests.map((test, index) => (
+                    <div 
+                      key={index}
+                      className="bg-white p-4 rounded-lg"
+                    >
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-4">
+                          {getTestStatusIcon(test.status)}
+                          <div>
+                            <h3 className="font-medium text-gray-900">{test.topic} Test</h3>
+                            <div className="flex items-center gap-4 mt-1">
+                              {test.status === 'failed' ? (
+                                <span className="text-sm text-gray-500">
+                                  Next attempt available on {test.nextAttemptDate}
+                                </span>
+                              ) : test.status === 'locked' ? (
+                                <span className="text-sm text-gray-500">
+                                  Complete prerequisites: {test.prerequisites.join(', ')}
+                                </span>
+                              ) : (
+                                <span className="text-sm text-gray-500">
+                                  Required score: {test.requiredScore}%
+                                </span>
+                              )}
+                            </div>
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-6">
+                          {test.status === 'failed' && (
+                            <div className="text-sm">
+                              <span className="font-medium text-red-500">Last attempt: {test.lastAttemptScore}/100</span>
+                            </div>
+                          )}
+                          {(test.status === 'available' || test.status === 'failed') && (
+                            <Link
+                              to="/practice"
+                              className="px-4 py-2 bg-gray-900 text-white rounded-lg text-sm hover:bg-gray-800"
+                            >
+                              {test.status === 'failed' ? 'Retry Test' : 'Start Test'}
+                            </Link>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Completed Items */}
+            {completedItems.length > 0 && (
+              <div className="bg-gray-50 rounded-xl p-6">
+                <div className="flex justify-between items-center mb-6">
+                  <div className="flex items-center gap-3">
+                    <Trophy className="h-6 w-6 text-yellow-500" />
+                    <h2 className="text-xl font-semibold text-gray-900">Completed</h2>
+                  </div>
+                </div>
+
+                <div className="space-y-4">
+                  {completedItems.map((item) => (
+                    <div
+                      key={item.id}
+                      className="flex items-center justify-between bg-white p-4 rounded-lg"
+                    >
                       <div className="flex items-center gap-4">
-                        {getTestStatusIcon(test.status)}
+                        <div className={`w-1 h-12 rounded-full ${
+                          item.score === 100 ? 'bg-yellow-500' : 'bg-green-500'
+                        }`} />
                         <div>
-                          <h3 className="font-medium text-gray-900">{test.topic} Test</h3>
-                          <div className="flex items-center gap-4 mt-1">
-                            {test.status === 'completed' ? (
-                              <span className="text-sm text-gray-500">
-                                Completed on {test.completedDate}
-                              </span>
-                            ) : test.status === 'failed' ? (
-                              <span className="text-sm text-gray-500">
-                                Next attempt available on {test.nextAttemptDate}
-                              </span>
-                            ) : test.status === 'locked' ? (
-                              <span className="text-sm text-gray-500">
-                                Complete prerequisites: {test.prerequisites.join(', ')}
-                              </span>
+                          <h3 className="font-medium text-gray-900">
+                            {item.type === 'daily' ? (
+                              <>Daily Practice - {item.topics.join(', ')}</>
                             ) : (
-                              <span className="text-sm text-gray-500">
-                                Required score: {test.requiredScore}%
-                              </span>
+                              <>{item.topic} - {item.section}</>
+                            )}
+                          </h3>
+                          <div className="flex items-center gap-4 mt-1 text-sm text-gray-500">
+                            <span>Completed: {item.dateCompleted}</span>
+                            <span>Time: {item.timeSpent}</span>
+                            <span>Score: {item.score}%</span>
+                            {item.type === 'daily' && (
+                              <span>{item.questions} questions</span>
                             )}
                           </div>
                         </div>
                       </div>
-                      <div className="flex items-center gap-6">
-                        {test.status === 'completed' ? (
-                          <div className="text-sm">
-                            <span className="font-medium text-gray-900">{test.score}</span>
-                            <span className="text-gray-500">/100</span>
-                          </div>
-                        ) : test.status === 'failed' ? (
-                          <div className="text-sm">
-                            <span className="font-medium text-red-500">Last attempt: {test.lastAttemptScore}/100</span>
-                          </div>
-                        ) : null}
-                        {(test.status === 'available' || test.status === 'failed') && (
-                          <Link
-                            to="/practice"
-                            className="px-4 py-2 bg-gray-900 text-white rounded-lg text-sm hover:bg-gray-800"
-                          >
-                            {test.status === 'failed' ? 'Retry Test' : 'Start Test'}
-                          </Link>
-                        )}
-                      </div>
+                      {item.score === 100 && (
+                        <div className="px-3 py-1.5 bg-yellow-50 text-yellow-800 rounded-lg text-sm font-medium">
+                          Perfect Score!
+                        </div>
+                      )}
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
           </div>
 
           {/* Sidebar */}
@@ -237,7 +267,7 @@ const Dashboard = () => {
               <div className="h-[200px]">
                 <ResponsiveContainer width="100%" height="100%">
                   <RechartsLineChart data={activityData}>
-                    <XAxis dataKey="day" stroke="#9CA3AF" />
+                    <XAxis dataKey="date" stroke="#9CA3AF" />
                     <YAxis stroke="#9CA3AF" />
                     <Tooltip />
                     <Line
