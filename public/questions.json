@@ -1,0 +1,5634 @@
+[
+    {
+        "topic": "vb",
+        "ID": 1,
+        "question": "What is the Bit Stream for section a?",
+        "solution": "100",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vb",
+        "ID": 2,
+        "question": "What is the Bit Stream for section b?",
+        "solution": "010",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vb",
+        "ID": 3,
+        "question": "What is the Bit Stream for section c?",
+        "solution": "001",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vb",
+        "ID": 4,
+        "question": "What is the Bit Stream for section d?",
+        "solution": "110",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vb",
+        "ID": 5,
+        "question": "What is the Bit Stream for section e?",
+        "solution": "101",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vb",
+        "ID": 6,
+        "question": "What is the Bit Stream for section f?",
+        "solution": "011",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vb",
+        "ID": 7,
+        "question": "What is the Bit Stream for section g?",
+        "solution": "111",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vb",
+        "ID": 8,
+        "question": "What is the Bit Stream for section h?",
+        "solution": "000",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vd",
+        "ID": 1,
+        "question": "What is the Disjunctive Normal Form of section a?",
+        "solution": "An_Bn_C",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vd",
+        "ID": 2,
+        "question": "What is the Disjunctive Normal Form of section b?",
+        "solution": "_AnBn_C",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vd",
+        "ID": 3,
+        "question": "What is the Disjunctive Normal Form of section c?",
+        "solution": "_An_BnC",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vd",
+        "ID": 4,
+        "question": "What is the Disjunctive Normal Form of section d?",
+        "solution": "AnBn_C",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vd",
+        "ID": 5,
+        "question": "What is the Disjunctive Normal Form of section e?",
+        "solution": "An_BnC",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vd",
+        "ID": 6,
+        "question": "What is the Disjunctive Normal Form of section f?",
+        "solution": "_AnBnC",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vd",
+        "ID": 7,
+        "question": "What is the Disjunctive Normal Form of section g?",
+        "solution": "AnBnC",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "vd",
+        "ID": 8,
+        "question": "What is the Disjunctive Normal Form of section h?",
+        "solution": "_An_Bn_C",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "bd",
+        "ID": 1,
+        "question": "What is the Disjunctive Normal Form of 100?",
+        "solution": "An_Bn_C",
+        "figure": "fig_venn3",
+        "answerFigure": "bit"
+    },
+    {
+        "topic": "bd",
+        "ID": 2,
+        "question": "What is the Disjunctive Normal Form of 010?",
+        "solution": "_AnBn_C",
+        "figure": "fig_venn3",
+        "answerFigure": "bit"
+    },
+    {
+        "topic": "bd",
+        "ID": 3,
+        "question": "What is the Disjunctive Normal Form of 001?",
+        "solution": "_An_BnC",
+        "figure": "fig_venn3",
+        "answerFigure": "bit"
+    },
+    {
+        "topic": "bd",
+        "ID": 4,
+        "question": "What is the Disjunctive Normal Form of 110?",
+        "solution": "AnBn_C",
+        "figure": "fig_venn3",
+        "answerFigure": "bit"
+    },
+    {
+        "topic": "bd",
+        "ID": 5,
+        "question": "What is the Disjunctive Normal Form of 101?",
+        "solution": "An_BnC",
+        "figure": "fig_venn3",
+        "answerFigure": "bit"
+    },
+    {
+        "topic": "bd",
+        "ID": 6,
+        "question": "What is the Disjunctive Normal Form of 011?",
+        "solution": "_AnBnC",
+        "figure": "fig_venn3",
+        "answerFigure": "bit"
+    },
+    {
+        "topic": "bd",
+        "ID": 7,
+        "question": "What is the Disjunctive Normal Form of 111?",
+        "solution": "AnBnC",
+        "figure": "fig_venn3",
+        "answerFigure": "bit"
+    },
+    {
+        "topic": "bd",
+        "ID": 8,
+        "question": "What is the Disjunctive Normal Form of 000?",
+        "solution": "_An_Bn_C",
+        "figure": "fig_venn3",
+        "answerFigure": "dnf"
+    },
+    {
+        "topic": "db",
+        "ID": 1,
+        "question": "What is the Bit Stream  Form of An_Bn_C?",
+        "solution": "100",
+        "figure": "fig_venn3",
+        "answerFigure": "dnf"
+    },
+    {
+        "topic": "db",
+        "ID": 2,
+        "question": "What is the Bit Stream Form of _AnBn_C?",
+        "solution": "010",
+        "figure": "fig_venn3",
+        "answerFigure": "dnf"
+    },
+    {
+        "topic": "db",
+        "ID": 3,
+        "question": "What is the Bit Stream Form of _An_BnC?",
+        "solution": "001",
+        "figure": "fig_venn3",
+        "answerFigure": "dnf"
+    },
+    {
+        "topic": "db",
+        "ID": 4,
+        "question": "What is the Bit Stream Form of AnBn_C?",
+        "solution": "110",
+        "figure": "fig_venn3",
+        "answerFigure": "dnf"
+    },
+    {
+        "topic": "db",
+        "ID": 5,
+        "question": "What is the Bit Stream Form of An_BnC?",
+        "solution": "101",
+        "figure": "fig_venn3",
+        "answerFigure": "dnf"
+    },
+    {
+        "topic": "db",
+        "ID": 6,
+        "question": "What is the Bit Stream Form of _AnBnC?",
+        "solution": "011",
+        "figure": "fig_venn3",
+        "answerFigure": "dnf"
+    },
+    {
+        "topic": "db",
+        "ID": 7,
+        "question": "What is the Bit Stream Form of AnBnC?",
+        "solution": "111",
+        "figure": "fig_venn3",
+        "answerFigure": "dnf"
+    },
+    {
+        "topic": "db",
+        "ID": 8,
+        "question": "What is the Bit Stream Form of _An_Bn_C?",
+        "solution": "000",
+        "figure": "fig_venn3",
+        "answerFigure": "dnf"
+    },
+    {
+        "topic": "so",
+        "ID": 1,
+        "question": "How do you denote the union of A and B?",
+        "solution": "AuB",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "so",
+        "ID": 2,
+        "question": "How do you denote B union C?",
+        "solution": "BuC",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "so",
+        "ID": 3,
+        "question": "How do you deote the intersection of A and C?",
+        "solution": "AnC",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "so",
+        "ID": 4,
+        "question": "How do you denote A intersect C?",
+        "solution": "AnC",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "so",
+        "ID": 5,
+        "question": "How do you denote the compliment of A?",
+        "solution": "_A",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 1,
+        "question": "What is the roster notation for AuB?",
+        "solution": "{2,3,4,5,6,7}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 2,
+        "question": "What is the roster notation for AuC?",
+        "solution": "{2,3,4,5,6,8}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 3,
+        "question": "What is the roster notation for BuC?",
+        "solution": "{2,3,4,5,7,8}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 4,
+        "question": "What is the roster notation for AnB?",
+        "solution": "{2,5}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 5,
+        "question": "What is the roster notation for AnC?",
+        "solution": "{2,3}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 6,
+        "question": "What is the roster notation for BnC?",
+        "solution": "{2,4}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 7,
+        "question": "What is the roster notation for _A?",
+        "solution": "{4,7,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 8,
+        "question": "What is the roster notation for _B?",
+        "solution": "{3,6,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 9,
+        "question": "What is the roster notation for _C?",
+        "solution": "{5,6,7,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 10,
+        "question": "What is the roster notation for Au_B?",
+        "solution": "{2,3,5,6,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 11,
+        "question": "What is the roster notation for Au_C?",
+        "solution": "{2,3,5,6,7,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 12,
+        "question": "What is the roster notation for Bu_C?",
+        "solution": "{2,4,5,6,7,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 13,
+        "question": "What is the roster notation for _AuB?",
+        "solution": "{2,4,5,7,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 14,
+        "question": "What is the roster notation for _Au_B?",
+        "solution": "{3,4,6,7,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 15,
+        "question": "What is the roster notation for _AuC?",
+        "solution": "{2,3,4,7,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 16,
+        "question": "What is the roster notation for _Au_C?",
+        "solution": "{4,5,6,7,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 17,
+        "question": "What is the roster notation for _BuC?",
+        "solution": "{2,3,4,6,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 18,
+        "question": "What is the roster notation for An_B?",
+        "solution": "{3,6}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 19,
+        "question": "What is the roster notation for An_C?",
+        "solution": "{5,6}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 20,
+        "question": "What is the roster notation for Bn_C?",
+        "solution": "{5,7}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 21,
+        "question": "What is the roster notation for _AnB?",
+        "solution": "{4,7}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 22,
+        "question": "What is the roster notation for _An_B?",
+        "solution": "{8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 23,
+        "question": "What is the roster notation for _AnC?",
+        "solution": "{4,8}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 24,
+        "question": "What is the roster notation for _An_C?",
+        "solution": "{7,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 25,
+        "question": "What is the roster notation for _BnC?",
+        "solution": "{3,8}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 26,
+        "question": "What is the roster notation for _An_Bn_C?",
+        "solution": "{0,16,17}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 27,
+        "question": "What is the roster notation for _An_BnC?",
+        "solution": "{15}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 28,
+        "question": "What is the roster notation for _AnBn_C?",
+        "solution": "{10,14}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 29,
+        "question": "What is the roster notation for _AnBnC?",
+        "solution": "{12}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 30,
+        "question": "What is the roster notation for An_Bn_C?",
+        "solution": "{1,5,7}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 31,
+        "question": "What is the roster notation for An_BnC?",
+        "solution": "{3,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 32,
+        "question": "What is the roster notation for AnBn_C?",
+        "solution": "{2,4,8}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 33,
+        "question": "What is the roster notation for AnBnC?",
+        "solution": "{6}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 34,
+        "question": "What is the roster notation for _Au_Bu_C?",
+        "solution": "{0,1,2,3,4,5,7,8,9,10,12,14,15,16,17}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 35,
+        "question": "What is the roster notation for _Au_BuC?",
+        "solution": "{0,1,3,5,6,7,9,10,12,14,15,16,17}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 36,
+        "question": "What is the roster notation for _AuBu_C?",
+        "solution": "{0,1,2,4,5,6,7,8,10,12,14,15,16,17}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 37,
+        "question": "What is the roster notation for _AuBuC?",
+        "solution": "{0,2,3,4,6,8,9,10,12,14,15,16,17}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 38,
+        "question": "What is the roster notation for Au_Bu_C?",
+        "solution": "{0,1,2,3,4,5,6,7,8,9,10,14,15,16,17}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 39,
+        "question": "What is the roster notation for Au_BuC?",
+        "solution": "{0,1,2,3,4,5,6,7,8,9,12,15,16,17}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 40,
+        "question": "What is the roster notation for AuBu_C?",
+        "solution": "{0,1,2,3,4,5,6,7,8,9,10,12,14,16,17}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 41,
+        "question": "What is the roster notation for AuBuC?",
+        "solution": "{1,2,3,4,5,6,7,8,9,10,12,14,15}",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "rn",
+        "ID": 42,
+        "question": "What is the roster notation for A union B?",
+        "solution": "{2,3,4,5,6,7}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 43,
+        "question": "What is the roster notation for the union of A and C?",
+        "solution": "{2,3,4,5,6,8}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 44,
+        "question": "What is the roster notation for B union C?",
+        "solution": "{2,3,4,5,7,8}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 45,
+        "question": "What is the roster notation for the intersection of A and B?",
+        "solution": "{2,5}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 46,
+        "question": "What is the roster notation for A intersect C?",
+        "solution": "{2,3}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 47,
+        "question": "What is the roster notation for the intersection of B and C?",
+        "solution": "{2,4}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 48,
+        "question": "What is the roster notation for the compliment of A?",
+        "solution": "{4,7,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 49,
+        "question": "What is the roster notation for the compliment of B?",
+        "solution": "{3,6,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 50,
+        "question": "What is the roster notation for the compliment of C?",
+        "solution": "{5,6,7,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 51,
+        "question": "What is the roster notation for A union the compliment of B?",
+        "solution": "{2,3,5,6,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 52,
+        "question": "What is the roster notation for the union of A and the compliment of C?",
+        "solution": "{2,3,5,6,7,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 53,
+        "question": "What is the roster notation for B union the compliment of C?",
+        "solution": "{2,4,5,6,7,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 54,
+        "question": "What is the roster notation for the compliment of A union B?",
+        "solution": "{2,4,5,7,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 55,
+        "question": "What is the roster notation for the union of the compliment of A and the compliment of B?",
+        "solution": "{3,4,6,7,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 56,
+        "question": "What is the roster notation for the compliment of A union C?",
+        "solution": "{2,3,4,7,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 57,
+        "question": "What is the roster notation for the union of the compliment of A and the compliment of C?",
+        "solution": "{4,5,6,7,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 58,
+        "question": "What is the roster notation for the compliment of B union C?",
+        "solution": "{2,3,4,6,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 59,
+        "question": "What is the roster notation for the intersection of A and the compliment of B?",
+        "solution": "{3,6}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 60,
+        "question": "What is the roster notation for A intersect the compliment of C?",
+        "solution": "{5,6}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 61,
+        "question": "What is the roster notation for the intersection of B and the compliment of C?",
+        "solution": "{5,7}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 62,
+        "question": "What is the roster notation for the compliment of A intersect B?",
+        "solution": "{4,7}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 63,
+        "question": "What is the roster notation for the intersection of the complimet of A and the compliment of B?",
+        "solution": "{8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 64,
+        "question": "What is the roster notation for the compliment of A intersect C?",
+        "solution": "{4,8}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 65,
+        "question": "What is the roster notation for the intersection of the compliment of A and the compliment of C?",
+        "solution": "{7,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "rn",
+        "ID": 66,
+        "question": "What is the roster notation for the compliment of B intersect C?",
+        "solution": "{3,8}",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "ca",
+        "ID": 1,
+        "question": "What is the cardinality of {0,1,2,3,4,5}?",
+        "solution": "6",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ca",
+        "ID": 2,
+        "question": "What is the cardinality of {5,4,3,2,9}?",
+        "solution": "5",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ca",
+        "ID": 3,
+        "question": "What is the cardinality of {0,1,1,0,0,1}?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ca",
+        "ID": 4,
+        "question": "What is the cardinality of {5,3,4,3,2,5}?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ca",
+        "ID": 5,
+        "question": "What is the cardinality of {1,{2,3},4,5,6}?",
+        "solution": "5",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ca",
+        "ID": 6,
+        "question": "What is the cardinality of {{0,1,2,3,4,5}}?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ca",
+        "ID": 7,
+        "question": "What is the cardinality of {1,2,3,{1,2},{1,3},{2,1},{2,3},{1,2,3}?",
+        "solution": "7",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ca",
+        "ID": 8,
+        "question": "What is the cardinality of {}?",
+        "solution": "0",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ca",
+        "ID": 9,
+        "question": "What is the cardinality of {{}}?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ca",
+        "ID": 10,
+        "question": "What is the cardinality of {{},{1},{2},{1,2}}?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ca",
+        "ID": 11,
+        "question": "What is the cardinality of A?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "ca",
+        "ID": 12,
+        "question": "What is the cardinality of AuB?",
+        "solution": "6",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "ca",
+        "ID": 13,
+        "question": "What is the cardinality of BnC?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "ca",
+        "ID": 14,
+        "question": "What is |C|?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "ca",
+        "ID": 15,
+        "question": "What is |BuC|?",
+        "solution": "6",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "ca",
+        "ID": 16,
+        "question": "What is |BnC|?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "ca",
+        "ID": 17,
+        "question": "What is the cardinality of A?",
+        "solution": "9",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 18,
+        "question": "What is |B|?",
+        "solution": "7",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 19,
+        "question": "What is the cardinality of C?",
+        "solution": "5",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 20,
+        "question": "What is the cardinality of AnB?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 21,
+        "question": "What is the cardinality of AnC?",
+        "solution": "3",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 22,
+        "question": "What is |BnC|?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 23,
+        "question": "What is the cardinality of AuB?",
+        "solution": "12",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 24,
+        "question": "What is |AuC|?",
+        "solution": "11",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 25,
+        "question": "What is the cardinality of BuC?",
+        "solution": "10",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 26,
+        "question": "What is |AnBnC|?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 27,
+        "question": "What is the cardinality of An_BnC?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 28,
+        "question": "What is |AnBn_C|?",
+        "solution": "3",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 29,
+        "question": "What is the cardinality of _AnBnC?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 30,
+        "question": "What is |_An_BnC|?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 31,
+        "question": "What is the cardinality of _AnBn_C?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 32,
+        "question": "What is |_An_Bn_C|?",
+        "solution": "3",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ca",
+        "ID": 33,
+        "question": "What is |U|?",
+        "solution": "16",
+        "figure": "fig_venn3",
+        "answerFigure": "mult"
+    },
+    {
+        "topic": "ps",
+        "ID": 1,
+        "question": "Given A = {1,2,3,4}, how many elements are in the Power Set of A?",
+        "solution": "16",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 2,
+        "question": "Given A = {5,9,2}, how many elements are in the Power Set of A?",
+        "solution": "8",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 3,
+        "question": "Given A = {7}, how many elements are in the Power Set of A?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 4,
+        "question": "Given A = {8,3}, how many elements are in the Power Set of A?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 5,
+        "question": "Given A = {1,0,0,1,1,0,1,1}, what is |P(A)|?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 6,
+        "question": "Given A = {4,1,5}, what is |P(A)|?",
+        "solution": "8",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 7,
+        "question": "Given A = {1,3,{4,5},6}, what is |P(A)|?",
+        "solution": "16",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 8,
+        "question": "Given A = {1,2,{1},{2,3},4}, what is |P(A)|?",
+        "solution": "32",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 9,
+        "question": "Given A = {{},1,2}, what is |P(A)|?",
+        "solution": "8",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 10,
+        "question": "Is |P(E)| = 24 possible? (T or F)",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 11,
+        "question": "Is |P(E)| = 64 possible? (T or F)",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 12,
+        "question": "Is P(E) = {{},{3}} a possible? (T or F)",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 13,
+        "question": "Is P(E) = {{},3} a possible? (T or F)",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 14,
+        "question": "Is P(E) = {{},{4},{5},{4,5}} a possible? (T or F)",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 15,
+        "question": "Is P(E) = {1,2,3,{1,2},{1,3},{2,3},{1,2,3} possible? (T or F)",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 16,
+        "question": "Is P(E) = {{1},{2},{3},{1,2},{1,3},{2,1},{2,3},{1,2,3}} a possible? (T or F)",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 17,
+        "question": "Given A = {3}, what is P(A)?",
+        "solution": "{{},{3}}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 18,
+        "question": "Given A = {3,5}, what is P(A)?",
+        "solution": "{{},{3},{5},{3,5}}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 19,
+        "question": "Given A = {3,5,7}, what is P(A)?",
+        "solution": "{{},{3},{5},{7},{3,5},{3,7},{5,7},{3,5,7}}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 20,
+        "question": "Given A = {a}, what is P(A)?",
+        "solution": "{{},{a}}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 21,
+        "question": "Given A = {a,b}, what is P(A)?",
+        "solution": "{{},{a},{b},{a,b}}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ps",
+        "ID": 22,
+        "question": "Given A = {a,b,c}, what is P(A)?",
+        "solution": "{{},{a},{b},{c},{a,b},{a,c},{b,c},{a,b,c}}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "dm",
+        "ID": 1,
+        "question": "Given U = {1,2,3,4,5,6,7,8,9,10}, _A = {5,6,7}, and _B = {7}, what is _(AuB)?",
+        "solution": "{7}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "dm",
+        "ID": 2,
+        "question": "Given U = {0,3,6,9,12,15,18}, _A = {6,12,18}, and _B = {6,9,12,18}, what is _(AnB)",
+        "solution": "{6,9,12,18}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "dm",
+        "ID": 3,
+        "question": "Given U = {1,2,3,4,5,6,7,8,9}, _A = {3,4,5,8}, and _B = {1,4,6,9}, what is _(AuB)?",
+        "solution": "{4}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "dm",
+        "ID": 4,
+        "question": "Given U = {1,2,3,4,5,6,7,8,9}, _A = {2,3,7,8,9}, and _B = {3,4,5,6,9}, what is _(AnB)?",
+        "solution": "{2,3,4,5,6,7,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "dm",
+        "ID": 5,
+        "question": "Given U = {1,2,3,4,5,6,7,8,9}, _A = {1,2,4,5}, and _B = {1,3,6,7,8,9}, what is _(AnB)?",
+        "solution": "{1,2,3,4,5,6,7,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "dm",
+        "ID": 6,
+        "question": "Given U = {1,2,3,4,5,6,7,8,9}, _A = {2,3,5,7,8,9}, and _B = {1,4,5,6,8}, what is _(AuB)?",
+        "solution": "{5,8}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "sb",
+        "ID": 1,
+        "question": "Given A = {xEN | 1 <= x <= 7}, what is the roster form?",
+        "solution": "{1,2,3,4,5,6,7}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "sb",
+        "ID": 2,
+        "question": "Given A = {xEN | 3 < x <= 9}, what is the roster form?",
+        "solution": "{4,5,6,7,8,9}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "sb",
+        "ID": 3,
+        "question": "Given A = {xEN | 2 <= x < 8}, what is the roster form?",
+        "solution": "{2,3,4,5,6,7}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "sb",
+        "ID": 4,
+        "question": "Given A = {xEN | 4 < x < 6}, what is the roster form?",
+        "solution": "{5}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "sb",
+        "ID": 5,
+        "question": "Given A = {xEZ | -1 <= x <= 3}, what is the roster form?",
+        "solution": "{-1,0,1,2,3}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "sb",
+        "ID": 6,
+        "question": "Given A = {xEZ | -3 < x <= 2}, what is the roster form?",
+        "solution": "{-2,-1,0,1,2}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "sb",
+        "ID": 7,
+        "question": "Given A = {xEZ | -2 <= x < 1}, what is the roster form?",
+        "solution": "{-2,-1,0}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "sb",
+        "ID": 8,
+        "question": "Given A = {xEZ | -4 < x < 0}, what is the roster form?",
+        "solution": "{-3,-2,-1}",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ss",
+        "ID": 1,
+        "question": "{d,g,g,d,f} is a subset of B? (T/F)",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "ss",
+        "ID": 2,
+        "question": "{} is not a subset of B={a,b,c,d}.(T/F)",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "ss",
+        "ID": 3,
+        "question": "{} is a subset of C.(T/F)",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "ss",
+        "ID": 4,
+        "question": "Is d is an element of C? (T/F)",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "ss",
+        "ID": 5,
+        "question": "{a,d,g,e,g,f} is not a subset of A (T/F)",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "abc"
+    },
+    {
+        "topic": "ss",
+        "ID": 6,
+        "question": "How many subsets are there in the Set C = {2,3,4,8}",
+        "solution": "16",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "ss",
+        "ID": 7,
+        "question": "{} is a subset of A = {2,3,5,6} (T/F)",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "ss",
+        "ID": 8,
+        "question": "5 is not a subset of A (T/F)",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "ss",
+        "ID": 9,
+        "question": "How many subsets are there in the set A = {2,3,5,6}",
+        "solution": "16",
+        "figure": "fig_venn3",
+        "answerFigure": "num"
+    },
+    {
+        "topic": "ss",
+        "ID": 10,
+        "question": "Given A = {2,5,6,7,9,10}, B = {2,7,10}, C = {1,2,5,7,9,10}, B is not a subset of A (T/F)",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ss",
+        "ID": 11,
+        "question": "Given A = {2,5,6,7,9,10}, B = {2,7,10}, C = {1,2,5,7,9,10}, C is not a subset of A (T/F)",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ss",
+        "ID": 12,
+        "question": "Given A = {2,5,6,7,9,10}, B = {2,7,10}, C = {1,2,5,7,9,10}, B is a subset of A (T/F)",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ss",
+        "ID": 13,
+        "question": "Given A = {2,4,6,7,9,10}, B = {2,6,7,10}, C = {1,5,7}, C is a subset of B (T/F)",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v2",
+        "ID": 1,
+        "question": "78 students were surveyed, 28 students took calculus, 39 students took physics, and 18 students took neither. How many students took both?",
+        "solution": "7",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v2",
+        "ID": 2,
+        "question": "30 students took calculus, 41 students took physics, and 8 students took both, and 19 students took neither. How any students were surveyed?",
+        "solution": "82",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v2",
+        "ID": 3,
+        "question": "86 students were surveyed, 32 students took calculus, 43 students took physics, and 9 students took both. How many students took neither?",
+        "solution": "20",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v2",
+        "ID": 4,
+        "question": "90 students were surveyed, 34 students took calculus, 45 students took physics, and 10 students took both. How many students took at least one class?",
+        "solution": "69",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v2",
+        "ID": 5,
+        "question": "36 students took calculus, 47 students took physics, 36 students took only physics, and 22 students took neither. How many students took at least one class?",
+        "solution": "72",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v2",
+        "ID": 6,
+        "question": "98 students were surveyed, 38 students took calculus, 49 students took physics, and 12 students took both. How any students took less than 2 classes?",
+        "solution": "86",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v2",
+        "ID": 7,
+        "question": "27 students took only calculus, 38 students took only physics, 13 students took both calculus and physics, and 24 students took neither. How many students were surveyed?",
+        "solution": "102",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v2",
+        "ID": 8,
+        "question": "28 students took only calculus, 39 students took only physics, 14 students took both calculus and physics, and 106 students were surveyed. How many students took neither?",
+        "solution": "25",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v2",
+        "ID": 9,
+        "question": "29 students took only calculus, 40 students took only physics, 26 students took neither, and 110 students were surveyed. How many students took calculus?",
+        "solution": "44",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v2",
+        "ID": 10,
+        "question": "30 students took only calculus, 41 students took only physics, 27 students took neither, and 114 students were surveyed. How many students took physics?",
+        "solution": "57",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v2",
+        "ID": 11,
+        "question": "31 students took only calculus, 42 students took only physics, 17 students took both calculus and physics, and 28 students took neither. How many students took calculus?",
+        "solution": "48",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v2",
+        "ID": 12,
+        "question": "122 students were surveyd, 32 students took only calculus, 43 students took only physics, and 18 students took both calculus and physics. How many students took calculus?",
+        "solution": "50",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v2",
+        "ID": 13,
+        "question": "33 students took only calculus, 44 students took only physics, 19 students took both calculus and physics, and 30 students took neither. How many students took physics?",
+        "solution": "63",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v2",
+        "ID": 14,
+        "question": "130 students were surveyd, 34 students took only calculus, 45 students took only physics, and 20 students took both calculus and physics. How many students took physics?",
+        "solution": "65",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v3",
+        "ID": 1,
+        "question": "New drugs (Albanine, Betroxin, and Cepterol) were given to 149 patients.\n122 patients showed a positive reaction.\nAlbanine produced 73 positive reactions.\nBetroxin produced 52 positive reactions.\nCepterol produced 62 positive reations.\nAll cases where Albanine and Betroxin were used together produced 26 positive reactions.\nAll cases where Albanine and Cepterol were used together produced 31 positive reations.\nAll cases where Betroxin and Cepterol were used together produced 23 positive reations.\nWhat drug or combination of drugs produced the highest positive results? (ie. DNF=13)",
+        "solution": "An_Bn_C=31",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v3",
+        "ID": 2,
+        "question": "New drugs (Albanine, Betroxin, and Cepterol) were given to 157 patients.\n129 patients showed a positive reaction.\nAlbanine produced 77 positive reactions.\nBetroxin produced 56 positive reactions.\nCepterol produced 66 positive reations.\nAll cases where Albanine and Betroxin were used together produced 28 positive reactions.\nAll cases where Albanine and Cepterol were used together produced 33 positive reations.\nAll cases where Betroxin and Cepterol were used together produced 25 positive reations.\nWhat drug or combination of drugs produced the lowest positive results? (ie. DNF=13)",
+        "solution": "_AnBnC=9",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v3",
+        "ID": 3,
+        "question": "New drugs (Albanine, Betroxin, and Cepterol) were given to 165 patients.\n136 patients showed a positive reaction.\nAlbanine produced 81 positive reactions.\nBetroxin produced 60 positive reactions.\nCepterol produced 70 positive reations.\nAll cases where Albanine and Betroxin were used together produced 30 positive reactions.\nAll cases where Albanine and Cepterol were used together produced 35 positive reations.\nAll cases where Betroxin and Cepterol were used together produced 27 positive reations.\nWhat were the results for the combination of all three drugs? (ie. DNF=13)",
+        "solution": "AnBnC=17",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v3",
+        "ID": 4,
+        "question": "New drugs (Albanine, Betroxin, and Cepterol) were given to 173 patients.\n143 patients showed a positive reaction.\nAlbanine produced 85 positive reactions.\nBetroxin produced 64 positive reactions.\nCepterol produced 74 positive reations.\nAll cases where Albanine and Betroxin were used together produced 32 positive reactions.\nAll cases where Albanine and Cepterol were used together produced 37 positive reations.\nAll cases where Betroxin and Cepterol were used together produced 29 positive reations.\nWhat were the results for the combination of only Albanine and Betroxin? (ie. DNF=13)",
+        "solution": "AnBn_C=14",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v3",
+        "ID": 5,
+        "question": "New drugs (Albanine, Betroxin, and Cepterol) were given to 181 patients.\n150 patients showed a positive reaction.\nAlbanine produced 89 positive reactions.\nBetroxin produced 68 positive reactions.\nCepterol produced 78 positive reations.\nAll cases where Albanine and Betroxin were used together produced 34 positive reactions.\nAll cases where Albanine and Cepterol were used together produced 39 positive reations.\nAll cases where Betroxin and Cepterol were used together produced 31 positive reations.\nWhat were the results for the combination of only Albanine and Cepterol? (ie. DNF=13)",
+        "solution": "An_BnC=20",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v3",
+        "ID": 6,
+        "question": "New drugs (Albanine, Betroxin, and Cepterol) were given to 189 patients.\n157 patients showed a positive reaction.\nAlbanine produced 93 positive reactions.\nBetroxin produced 72 positive reactions.\nCepterol produced 82 positive reations.\nAll cases where Albanine and Betroxin were used together produced 36 positive reactions.\nAll cases where Albanine and Cepterol were used together produced 41 positive reations.\nAll cases where Betroxin and Cepterol were used together produced 33 positive reations.\nWhat were the results for the combination of only Betroxin and Cepterol? (ie. DNF=13)",
+        "solution": "_AnBnC=13",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v3",
+        "ID": 7,
+        "question": "New drugs (Albanine, Betroxin, and Cepterol) were given to 197 patients.\n164 patients showed a positive reaction.\nAlbanine produced 97 positive reactions.\nBetroxin produced 76 positive reactions.\nCepterol produced 86 positive reations.\nAll cases where Albanine and Betroxin were used together produced 38 positive reactions.\nAll cases where Albanine and Cepterol were used together produced 43 positive reations.\nAll cases where Betroxin and Cepterol were used together produced 35 positive reations.\nWhat were the results for Betroxin only? (ie. DNF=13)",
+        "solution": "_AnBn_C=24",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "v3",
+        "ID": 8,
+        "question": "New drugs (Albanine, Betroxin, and Cepterol) were given to 205 patients.\n171 patients showed a positive reaction.\nAlbanine produced 101 positive reactions.\nBetroxin produced 80 positive reactions.\nCepterol produced 90 positive reations.\nAll cases where Albanine and Betroxin were used together produced 40 positive reactions.\nAll cases where Albanine and Cepterol were used together produced 45 positive reations.\nAll cases where Betroxin and Cepterol were used together produced 37 positive reations.\nWhat were the results for Cepterol only? (ie. DNF=13)",
+        "solution": "_An_BnC=30",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pt",
+        "ID": 1,
+        "question": "What is the Truth Table output for a tautology?",
+        "solution": "p",
+        "figure": "fig_tru",
+        "answerFigure": "TTTT"
+    },
+    {
+        "topic": "pt",
+        "ID": 2,
+        "question": "What is the Truth Table output for a contradiction?",
+        "solution": "a",
+        "figure": "fig_tru",
+        "answerFigure": "FFFF"
+    },
+    {
+        "topic": "pt",
+        "ID": 3,
+        "question": "What is the Truth Table output for P?",
+        "solution": "m",
+        "figure": "fig_tru",
+        "answerFigure": "TTFF"
+    },
+    {
+        "topic": "pt",
+        "ID": 4,
+        "question": "What is the Truth Table output for Q?",
+        "solution": "k",
+        "figure": "fig_tru",
+        "answerFigure": "TFTF"
+    },
+    {
+        "topic": "pt",
+        "ID": 5,
+        "question": "What is the Truth Table output for _P?",
+        "solution": "d",
+        "figure": "fig_tru",
+        "answerFigure": "FFTT"
+    },
+    {
+        "topic": "pt",
+        "ID": 6,
+        "question": "What is the Truth Table output for _Q?",
+        "solution": "f",
+        "figure": "fig_tru",
+        "answerFigure": "FTFT"
+    },
+    {
+        "topic": "pt",
+        "ID": 7,
+        "question": "What is the Truth Table output for P^Q?",
+        "solution": "i",
+        "figure": "fig_tru",
+        "answerFigure": "TFFF"
+    },
+    {
+        "topic": "pt",
+        "ID": 8,
+        "question": "What is the Truth Table output for PvQ?",
+        "solution": "o",
+        "figure": "fig_tru",
+        "answerFigure": "TTTF"
+    },
+    {
+        "topic": "pt",
+        "ID": 9,
+        "question": "What is the Truth Table output for _P^Q?",
+        "solution": "c",
+        "figure": "fig_tru",
+        "answerFigure": "FFTF"
+    },
+    {
+        "topic": "pt",
+        "ID": 10,
+        "question": "What is the Truth Table output for _PvQ?",
+        "solution": "l",
+        "figure": "fig_tru",
+        "answerFigure": "TFTT"
+    },
+    {
+        "topic": "pt",
+        "ID": 11,
+        "question": "What is the Truth Table output for P^_Q?",
+        "solution": "e",
+        "figure": "fig_tru",
+        "answerFigure": "FTFF"
+    },
+    {
+        "topic": "pt",
+        "ID": 12,
+        "question": "What is the Truth Table output for Pv_Q?",
+        "solution": "n",
+        "figure": "fig_tru",
+        "answerFigure": "TTFT"
+    },
+    {
+        "topic": "pt",
+        "ID": 13,
+        "question": "What is the Truth Table output for _P^_Q?",
+        "solution": "b",
+        "figure": "fig_tru",
+        "answerFigure": "FFFT"
+    },
+    {
+        "topic": "pt",
+        "ID": 14,
+        "question": "What is the Truth Table output for _Pv_Q?",
+        "solution": "h",
+        "figure": "fig_tru",
+        "answerFigure": "FTTT"
+    },
+    {
+        "topic": "pt",
+        "ID": 15,
+        "question": "What is the Truth Table output for P^_P?",
+        "solution": "a",
+        "figure": "fig_tru",
+        "answerFigure": "FFF"
+    },
+    {
+        "topic": "pt",
+        "ID": 16,
+        "question": "What is the Truth Table output for P^F?",
+        "solution": "a",
+        "figure": "fig_tru",
+        "answerFigure": "FFFF"
+    },
+    {
+        "topic": "pt",
+        "ID": 17,
+        "question": "What is the Truth Table output for F?",
+        "solution": "a",
+        "figure": "fig_tru",
+        "answerFigure": "FFFF"
+    },
+    {
+        "topic": "pt",
+        "ID": 18,
+        "question": "What is the Truth Table output for Pv_P?",
+        "solution": "p",
+        "figure": "fig_tru",
+        "answerFigure": "TTTT"
+    },
+    {
+        "topic": "pt",
+        "ID": 19,
+        "question": "What is the Truth Table output for PvT?",
+        "solution": "p",
+        "figure": "fig_tru",
+        "answerFigure": "TTTT"
+    },
+    {
+        "topic": "pt",
+        "ID": 20,
+        "question": "What is the Truth Table output for _(P^Q)?",
+        "solution": "h",
+        "figure": "fig_tru",
+        "answerFigure": "FTTT"
+    },
+    {
+        "topic": "pt",
+        "ID": 21,
+        "question": "What is the Truth Table output for P->Q?",
+        "solution": "l",
+        "figure": "fig_tru",
+        "answerFigure": "TFTT"
+    },
+    {
+        "topic": "pt",
+        "ID": 22,
+        "question": "What is the Truth Table output for _(P^_Q)?",
+        "solution": "l",
+        "figure": "fig_tru",
+        "answerFigure": "TFTT"
+    },
+    {
+        "topic": "pt",
+        "ID": 23,
+        "question": "What is the Truth Table output for _Q->_P?",
+        "solution": "l",
+        "figure": "fig_tru",
+        "answerFigure": "TFTT"
+    },
+    {
+        "topic": "pt",
+        "ID": 24,
+        "question": "What is the Truth Table output for _P->_Q?",
+        "solution": "n",
+        "figure": "fig_tru",
+        "answerFigure": "TTFT"
+    },
+    {
+        "topic": "pt",
+        "ID": 25,
+        "question": "What is the Truth Table output for Q->P?",
+        "solution": "n",
+        "figure": "fig_tru",
+        "answerFigure": "TTFT"
+    },
+    {
+        "topic": "pt",
+        "ID": 26,
+        "question": "What is the Truth Table output for _(_P^Q)?",
+        "solution": "n",
+        "figure": "fig_tru",
+        "answerFigure": "TTFT"
+    },
+    {
+        "topic": "pt",
+        "ID": 27,
+        "question": "What is the Truth Table output for _P->Q?",
+        "solution": "o",
+        "figure": "fig_tru",
+        "answerFigure": "TTTF"
+    },
+    {
+        "topic": "pt",
+        "ID": 28,
+        "question": "What is the Truth Table output for QvP?",
+        "solution": "o",
+        "figure": "fig_tru",
+        "answerFigure": "TTTF"
+    },
+    {
+        "topic": "pt",
+        "ID": 29,
+        "question": "What is the Truth Table output for Q^P?",
+        "solution": "i",
+        "figure": "fig_tru",
+        "answerFigure": "TFFF"
+    },
+    {
+        "topic": "pt",
+        "ID": 30,
+        "question": "What is the Truth Table output for _(P->_Q)?",
+        "solution": "i",
+        "figure": "fig_tru",
+        "answerFigure": "TFFF"
+    },
+    {
+        "topic": "pt",
+        "ID": 31,
+        "question": "What is the Truth Table output for _(_PvQ)?",
+        "solution": "e",
+        "figure": "fig_tru",
+        "answerFigure": "FTFF"
+    },
+    {
+        "topic": "pt",
+        "ID": 32,
+        "question": "What is the Truth Table output for _(P->Q)?",
+        "solution": "e",
+        "figure": "fig_tru",
+        "answerFigure": "FTFF"
+    },
+    {
+        "topic": "pt",
+        "ID": 33,
+        "question": "What is the Truth Table output for _(Pv_Q)?",
+        "solution": "c",
+        "figure": "fig_tru",
+        "answerFigure": "FFTF"
+    },
+    {
+        "topic": "pt",
+        "ID": 34,
+        "question": "What is the Truth Table output for _(Q->P)?",
+        "solution": "c",
+        "figure": "fig_tru",
+        "answerFigure": "FFTF"
+    },
+    {
+        "topic": "ls",
+        "ID": 1,
+        "question": "What is \"_\"?",
+        "solution": "NOT",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 2,
+        "question": "What is \"^\"?",
+        "solution": "AND",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 3,
+        "question": "What is \"v\"?",
+        "solution": "OR",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 4,
+        "question": "What is \"+o\"?",
+        "solution": "XOR",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 5,
+        "question": "What is \"->\"?",
+        "solution": "conditional",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 6,
+        "question": "What is \"<->\"?",
+        "solution": "biconditional",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 7,
+        "question": "What is the symbol for \"NOT\"?",
+        "solution": "_",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 8,
+        "question": "What is the symbol for \"AND\"?",
+        "solution": "^",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 9,
+        "question": "What is the symbol for \"OR\"?",
+        "solution": "v",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 10,
+        "question": "What is the symbol for \"XOR\"?",
+        "solution": "+o",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 11,
+        "question": "What is the symbol for \"conditional\"?",
+        "solution": "->",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 12,
+        "question": "What is the symbol for \"biconditional\"?",
+        "solution": "<->",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 13,
+        "question": "When parentheses are not present, what is first symbol in precedence? Pv_Q^R+oP<->R->Q",
+        "solution": "_",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 14,
+        "question": "When parentheses are not present, what is second symbol in precedence? Pv_Q^R+oP<->R->Q",
+        "solution": "^",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 15,
+        "question": "When parentheses are not present, what is third symbol in precedence? Pv_Q^R+oP<->R->Q",
+        "solution": "v",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 16,
+        "question": "When parentheses are not present, what is fourth symbol in precedence? Pv_Q^R+oP<->R->Q",
+        "solution": "+o",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 17,
+        "question": "When parentheses are not present, what is fifth symbol in precedence? Pv_Q^R+oP<->R->Q",
+        "solution": "->",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 18,
+        "question": "When parentheses are not present, what is sixth symbol in precedence? Pv_Q^R+oP<->R->Q",
+        "solution": "<->",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 19,
+        "question": "When parentheses are not present, what is first symbol in precedence? P+o_Q^RvP<->R->Q",
+        "solution": "_",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 20,
+        "question": "When parentheses are not present, what is second symbol in precedence? P+o_Q^RvP<->R->Q",
+        "solution": "^",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 21,
+        "question": "When parentheses are not present, what is third symbol in precedence? P+o_Q^RvP<->R->Q",
+        "solution": "+o",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 22,
+        "question": "When parentheses are not present, what is fourth symbol in precedence? P+o_Q^RvP<->R->Q",
+        "solution": "v",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 23,
+        "question": "When parentheses are not present, what is fifth symbol in precedence? P+o_Q^RvP<->R->Q",
+        "solution": "->",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 24,
+        "question": "When parentheses are not present, what is sixth symbol in precedence? P+o_Q^RvP<->R->Q",
+        "solution": "<->",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 25,
+        "question": "Use parentheses to show what operations occurs first? Pv_Q^R+oP<->R->Q",
+        "solution": "(_Q)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 26,
+        "question": "Use parentheses to show what operations occurs second? Pv_Q^R+oP<->R->Q",
+        "solution": "((_Q)^R)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 27,
+        "question": "Use parentheses to show what operations occurs third? Pv_Q^R+oP<->R->Q",
+        "solution": "(Pv((_Q)^R))",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 28,
+        "question": "Use parentheses to show what operations occurs fourth? Pv_Q^R+oP<->R->Q",
+        "solution": "((Pv((_Q)^R))+oP)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 29,
+        "question": "Use parentheses to show what operations occurs fifth? Pv_Q^R+oP<->R->Q",
+        "solution": "(R->Q)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 30,
+        "question": "Use parentheses to show what operations occurs sixth? Pv_Q^R+oP<->R->Q",
+        "solution": "(((Pv((_Q)^R))+oP)<->(R->Q))",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 31,
+        "question": "Use parentheses to show what operations occurs first? P+o_Q^RvP<->R->Q",
+        "solution": "(_Q)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 32,
+        "question": "Use parentheses to show what operations occurs second? P+o_Q^RvP<->R->Q",
+        "solution": "((_Q)^R)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 33,
+        "question": "Use parentheses to show what operations occurs third? P+o_Q^RvP<->R->Q",
+        "solution": "(P+o((_Q)^R))",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 34,
+        "question": "Use parentheses to show what operations occurs fourth? P+o_Q^RvP<->R->Q",
+        "solution": "((P+o((_Q)^R))vP)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 35,
+        "question": "Use parentheses to show what operations occurs fifth? P+o_Q^RvP<->R->Q",
+        "solution": "(R->Q)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "ls",
+        "ID": 36,
+        "question": "Use parentheses to show what operations occurs sixth? P+o_Q^RvP<->R->Q",
+        "solution": "(((P+o((_Q)^R))vP)<->(R->Q))",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "kp",
+        "ID": 1,
+        "question": "What is the logic equation for the Karnaugh map in terms of P? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "P^_P",
+        "figure": "fig_kmap2",
+        "answerFigure": "FFFF"
+    },
+    {
+        "topic": "kp",
+        "ID": 2,
+        "question": "What is the logic equation for the Karnaugh map in terms of Q? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "Q^_Q",
+        "figure": "fig_kmap2",
+        "answerFigure": "FFFF"
+    },
+    {
+        "topic": "kp",
+        "ID": 3,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "_P^_Q",
+        "figure": "fig_kmap2",
+        "answerFigure": "FFFT"
+    },
+    {
+        "topic": "kp",
+        "ID": 4,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "_P^Q",
+        "figure": "fig_kmap2",
+        "answerFigure": "FFTF"
+    },
+    {
+        "topic": "kp",
+        "ID": 5,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "(_P^Q)v(_P^_Q)",
+        "figure": "fig_kmap2",
+        "answerFigure": "FFTT"
+    },
+    {
+        "topic": "kp",
+        "ID": 6,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "P^_Q",
+        "figure": "fig_kmap2",
+        "answerFigure": "FTFF"
+    },
+    {
+        "topic": "kp",
+        "ID": 7,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "(P^_Q)v(_P^_Q)",
+        "figure": "fig_kmap2",
+        "answerFigure": "FTFT"
+    },
+    {
+        "topic": "kp",
+        "ID": 8,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "(P^_Q)v(_P^Q)",
+        "figure": "fig_kmap2",
+        "answerFigure": "FTTF"
+    },
+    {
+        "topic": "kp",
+        "ID": 9,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "(P^_Q)v(_P^Q)v(_P^_Q)",
+        "figure": "fig_kmap2",
+        "answerFigure": "FTTT"
+    },
+    {
+        "topic": "kp",
+        "ID": 10,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "P^Q",
+        "figure": "fig_kmap2",
+        "answerFigure": "TFFF"
+    },
+    {
+        "topic": "kp",
+        "ID": 11,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "(P^Q)v(_P^_Q)",
+        "figure": "fig_kmap2",
+        "answerFigure": "TFFT"
+    },
+    {
+        "topic": "kp",
+        "ID": 12,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "(P^Q)v(_P^Q)",
+        "figure": "fig_kmap2",
+        "answerFigure": "TFTF"
+    },
+    {
+        "topic": "kp",
+        "ID": 13,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "(P^Q)v(_P^Q)v(_P^_Q)",
+        "figure": "fig_kmap2",
+        "answerFigure": "TFTT"
+    },
+    {
+        "topic": "kp",
+        "ID": 14,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "(P^Q)v(P^_Q)",
+        "figure": "fig_kmap2",
+        "answerFigure": "TTFF"
+    },
+    {
+        "topic": "kp",
+        "ID": 15,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "(P^Q)v(P^_Q)v(_P^_Q)",
+        "figure": "fig_kmap2",
+        "answerFigure": "TTFT"
+    },
+    {
+        "topic": "kp",
+        "ID": 16,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "(P^Q)v(P^_Q)v(_P^Q)",
+        "figure": "fig_kmap2",
+        "answerFigure": "TTTF"
+    },
+    {
+        "topic": "kp",
+        "ID": 17,
+        "question": "What is the logic equation for the Karnaugh map? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "(P^Q)v(P^_Q)v(_P^Q)v(_P^_Q)",
+        "figure": "fig_kmap2",
+        "answerFigure": "TTTT"
+    },
+    {
+        "topic": "kp",
+        "ID": 18,
+        "question": "What is the logic equation for the Karnaugh map in terms of P? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "Pv_P",
+        "figure": "fig_kmap2",
+        "answerFigure": "TTTT"
+    },
+    {
+        "topic": "kp",
+        "ID": 19,
+        "question": "What is the logic equation for the Karnaugh map in terms of Q? (Use _ for NOT, v for OR, and ^ for AND)",
+        "solution": "Qv_Q",
+        "figure": "fig_kmap2",
+        "answerFigure": "TTTT"
+    },
+    {
+        "topic": "pk",
+        "ID": 1,
+        "question": "Which Karnaugh map is the equivalent to the equation: F?",
+        "solution": "a",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 2,
+        "question": "Which Karnaugh map is a contradiction?",
+        "solution": "a",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 3,
+        "question": "Which Karnaugh map is the equivalent to the equation: P^_P?",
+        "solution": "a",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 4,
+        "question": "Which Karnaugh map is the equivalent to the equation: Q^_Q?",
+        "solution": "a",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 5,
+        "question": "Which Karnaugh map is the equivalent to the equation: (PvQ)^(Pv_Q)^(_PvQ)^(_Pv_Q)?",
+        "solution": "a",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 6,
+        "question": "Which Karnaugh map is the equivalent to the equation: _P^_Q?",
+        "solution": "b",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 7,
+        "question": "Which Karnaugh map is the equivalent to the equation: _(_P->Q)?",
+        "solution": "b",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 8,
+        "question": "Which Karnaugh map is the equivalent to the equation: _P^Q?",
+        "solution": "c",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 9,
+        "question": "Which Karnaugh map is the equivalent to the equation: _(_P->_Q)?",
+        "solution": "c",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 10,
+        "question": "Which Karnaugh map is the equivalent to the equation: (_P^Q)v(_P^_Q)?",
+        "solution": "d",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 11,
+        "question": "Which Karnaugh map is the equivalent to the equation: _P?",
+        "solution": "d",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 12,
+        "question": "Which Karnaugh map is the equivalent to the equation: P^_Q?",
+        "solution": "e",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 13,
+        "question": "Which Karnaugh map is the equivalent to the equation: _(P->Q)?",
+        "solution": "e",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 14,
+        "question": "Which Karnaugh map is the equivalent to the equation: (P^_Q)v(_P^_Q)?",
+        "solution": "f",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 15,
+        "question": "Which Karnaugh map is the equivalent to the equation: _Q?",
+        "solution": "f",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 16,
+        "question": "Which Karnaugh map is the equivalent to the equation: (P^_Q)v(_P^Q)?",
+        "solution": "g",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 17,
+        "question": "Which Karnaugh map is the equivalent to the equation: _P<->Q?",
+        "solution": "g",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 18,
+        "question": "Which Karnaugh map is the equivalent to the equation: P<->_Q?",
+        "solution": "g",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 19,
+        "question": "Which Karnaugh map is the equivalent to the equation: (P^_Q)v(_P^Q)v(_P^_Q)?",
+        "solution": "h",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 20,
+        "question": "Which Karnaugh map is the equivalent to the equation: _Pv_Q?",
+        "solution": "h",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 21,
+        "question": "Which Karnaugh map is the equivalent to the equation: P->_Q?",
+        "solution": "h",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 22,
+        "question": "Which Karnaugh map is the equivalent to the equation: P^Q?",
+        "solution": "i",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 23,
+        "question": "Which Karnaugh map is the equivalent to the equation: _(P->_Q)?",
+        "solution": "i",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 24,
+        "question": "Which Karnaugh map is the equivalent to the equation: (P^Q)v(_P^_Q)?",
+        "solution": "j",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 25,
+        "question": "Which Karnaugh map is the equivalent to the equation: P<->Q?",
+        "solution": "j",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 26,
+        "question": "Which Karnaugh map is the equivalent to the equation: _P<->_Q?",
+        "solution": "j",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 27,
+        "question": "Which Karnaugh map is the equivalent to the equation: (P^Q)v(_P^Q)?",
+        "solution": "k",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 28,
+        "question": "Which Karnaugh map is the equivalent to the equation: Q?",
+        "solution": "k",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 29,
+        "question": "Which Karnaugh map is the equivalent to the equation: (P^Q)v(_P^Q)v(_P^_Q)?",
+        "solution": "l",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 30,
+        "question": "Which Karnaugh map is the equivalent to the equation: _PvQ?",
+        "solution": "l",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 31,
+        "question": "Which Karnaugh map is the equivalent to the equation: P->Q?",
+        "solution": "l",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 32,
+        "question": "Which Karnaugh map is the equivalent to the equation: (P^Q)v(P^_Q)?",
+        "solution": "m",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 33,
+        "question": "Which Karnaugh map is the equivalent to the equation: P?",
+        "solution": "m",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 34,
+        "question": "Which Karnaugh map is the equivalent to the equation: (P^Q)v(P^_Q)v(_P^_Q)?",
+        "solution": "n",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 35,
+        "question": "Which Karnaugh map is the equivalent to the equation: Pv_Q?",
+        "solution": "n",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 36,
+        "question": "Which Karnaugh map is the equivalent to the equation: _P->_Q?",
+        "solution": "n",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 37,
+        "question": "Which Karnaugh map is the equivalent to the equation: (P^Q)v(P^_Q)v(_P^Q)?",
+        "solution": "o",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 38,
+        "question": "Which Karnaugh map is the equivalent to the equation: PvQ?",
+        "solution": "o",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 39,
+        "question": "Which Karnaugh map is the equivalent to the equation: _P->Q?",
+        "solution": "o",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 40,
+        "question": "Which Karnaugh map is the equivalent to the equation: (P^Q)v(P^_Q)v(_P^Q)v(_P^_Q)?",
+        "solution": "p",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 41,
+        "question": "Which Karnaugh map is the equivalent to the equation: Pv_P?",
+        "solution": "p",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 42,
+        "question": "Which Karnaugh map is the equivalent to the equation: Qv_Q?",
+        "solution": "p",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 43,
+        "question": "Which Karnaugh map is the equivalent to the equation: T?",
+        "solution": "p",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pk",
+        "ID": 44,
+        "question": "Which Karnaugh map is a tautology?",
+        "solution": "p",
+        "figure": "fig_kmap2",
+        "answerFigure": "all"
+    },
+    {
+        "topic": "pe",
+        "ID": 1,
+        "question": "Do the propositional logic expressions '_(P->_Q)' and 'P^Q' have the same output? (YES/NO)",
+        "solution": "YES",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 2,
+        "question": "Do the propositional logic expressions 'Q^(_Pv_Q)' and '_P^Q' have the same output? (YES/NO)",
+        "solution": "YES",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 3,
+        "question": "Do the propositional logic expressions '(Pv_Q)^(_PvQ)' and 'P<->Q' have the same output? (YES/NO)",
+        "solution": "YES",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 4,
+        "question": "Do the propositional logic expressions '(QvQ)^(QvP)' and 'Q' have the same output? (YES/NO)",
+        "solution": "YES",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 5,
+        "question": "Do the propositional logic expressions '_P->Q' and 'PvQ' have the same output? (YES/NO)",
+        "solution": "YES",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 6,
+        "question": "Do the propositional logic expressions '_(P<->Q)' and 'P<->_Q' have the same output? (YES/NO)",
+        "solution": "YES",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 7,
+        "question": "Do the propositional logic expressions '_(Pv(_P^Q))' and '_P^_Q' have the same output? (YES/NO)",
+        "solution": "YES",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 8,
+        "question": "Do the propositional logic expressions '(P^Q)v(_P^Q)v(_P^_Q)' and 'P->Q' have the same output? (YES/NO)",
+        "solution": "YES",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 9,
+        "question": "Do the propositional logic expressions '(P^Q)v(P^_Q)^(_P^Q)' and 'P^Q' have the same output? (YES/NO)",
+        "solution": "YES",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 10,
+        "question": "Do the propositional logic expressions '_(_P^_Q)' and 'PvQ' have the same output? (YES/NO)",
+        "solution": "YES",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 11,
+        "question": "Do the propositional logic expressions 'P->Q' and '_Q->_P' have the same output? (YES/NO)",
+        "solution": "YES",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 12,
+        "question": "Do the propositional logic expressions '(_P^Q)v(Pv_Q)^(P^Q)' and 'Q' have the same output? (YES/NO)",
+        "solution": "YES",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 13,
+        "question": "Do the propositional logic expressions '_(P->_Q)' and 'Q' have the same output? (YES/NO)",
+        "solution": "NO",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 14,
+        "question": "Do the propositional logic expressions '_(P^(_P^Q))' and '_P^_Q' have the same output? (YES/NO)",
+        "solution": "NO",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 15,
+        "question": "Do the propositional logic expressions 'P<->Q' and '_(P^Q)^(PvQ)' have the same output? (YES/NO)",
+        "solution": "NO",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 16,
+        "question": "Do the propositional logic expressions '(P->Q)^(_P->Q)' and 'P<->Q' have the same output? (YES/NO)",
+        "solution": "NO",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 17,
+        "question": "Do the propositional logic expressions 'Pv_P' and 'F' have the same output? (YES/NO)",
+        "solution": "NO",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 18,
+        "question": "Do the propositional logic expressions 'P^((Qv(Q^P))v_Q)' and 'Q' have the same output? (YES/NO)",
+        "solution": "NO",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 19,
+        "question": "Do the propositional logic expressions '_(_Q^(Pv(_PvQ)))' and 'P' have the same output? (YES/NO)",
+        "solution": "NO",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 20,
+        "question": "Do the propositional logic expressions '_Pv_(Q^(Qv(Pv(P^Q))))' and '_(_P^Q)' have the same output? (YES/NO)",
+        "solution": "NO",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 21,
+        "question": "Do the propositional logic expressions '(_P^Q)v(Pv_Q)v(P^Q)' and 'F' have the same output? (YES/NO)",
+        "solution": "NO",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 22,
+        "question": "Do the propositional logic expressions '(_P^Q)v(P^_Q)^(PvQ)' and '(P^Q)v(_P^_Q)' have the same output? (YES/NO)",
+        "solution": "NO",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 23,
+        "question": "Do the propositional logic expressions '_P^_Q' and '_(P^Q)' have the same output? (YES/NO)",
+        "solution": "NO",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "pe",
+        "ID": 24,
+        "question": "Do the propositional logic expressions '_(P->_Q)' and 'PvQ' have the same output? (YES/NO)",
+        "solution": "NO",
+        "figure": "fig_tru",
+        "answerFigure": ""
+    },
+    {
+        "topic": "cp",
+        "ID": 1,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "P^Q",
+        "figure": "fig_circ",
+        "answerFigure": "P^Q"
+    },
+    {
+        "topic": "cp",
+        "ID": 2,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "PvQ",
+        "figure": "fig_circ",
+        "answerFigure": "PvQ"
+    },
+    {
+        "topic": "cp",
+        "ID": 3,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "_P^Q",
+        "figure": "fig_circ",
+        "answerFigure": "_P^Q"
+    },
+    {
+        "topic": "cp",
+        "ID": 4,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "_PvQ",
+        "figure": "fig_circ",
+        "answerFigure": "_PvQ"
+    },
+    {
+        "topic": "cp",
+        "ID": 5,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "P^_Q",
+        "figure": "fig_circ",
+        "answerFigure": "P^_Q"
+    },
+    {
+        "topic": "cp",
+        "ID": 6,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "Pv_Q",
+        "figure": "fig_circ",
+        "answerFigure": "Pv_Q"
+    },
+    {
+        "topic": "cp",
+        "ID": 7,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "_P^_Q",
+        "figure": "fig_circ",
+        "answerFigure": "_P^_Q"
+    },
+    {
+        "topic": "cp",
+        "ID": 8,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "_Pv_Q",
+        "figure": "fig_circ",
+        "answerFigure": "_Pv_Q"
+    },
+    {
+        "topic": "cp",
+        "ID": 9,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "(P^_Q)v(_P^_Q)",
+        "figure": "fig_circ",
+        "answerFigure": "(P^_Q)v(_P^_Q)"
+    },
+    {
+        "topic": "cp",
+        "ID": 10,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "(_P^Q)v(_P^_Q)",
+        "figure": "fig_circ",
+        "answerFigure": "(_P^Q)v(_P^_Q)"
+    },
+    {
+        "topic": "cp",
+        "ID": 11,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "(P^Q)v(_P^_Q)",
+        "figure": "fig_circ",
+        "answerFigure": "(P^Q)v(_P^_Q)"
+    },
+    {
+        "topic": "cp",
+        "ID": 12,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "(_P^Q)v(P^_Q)",
+        "figure": "fig_circ",
+        "answerFigure": "(_P^Q)v(P^_Q)"
+    },
+    {
+        "topic": "cp",
+        "ID": 13,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "(_P^Q)v(_P^_Q)",
+        "figure": "fig_circ",
+        "answerFigure": "(_P^Q)v(_P^_Q)"
+    },
+    {
+        "topic": "cp",
+        "ID": 14,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "(P^_Q)v(_P^Q)v(_P^_Q)",
+        "figure": "fig_circ",
+        "answerFigure": "(P^_Q)v(_P^Q)v(_P^_Q)"
+    },
+    {
+        "topic": "cp",
+        "ID": 15,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "(P^Q)v(_P^Q)v(_P^_Q)",
+        "figure": "fig_circ",
+        "answerFigure": "(P^Q)v(_P^Q)v(_P^_Q)"
+    },
+    {
+        "topic": "cp",
+        "ID": 16,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "(P^Q)v(P^_Q)v(_P^_Q)",
+        "figure": "fig_circ",
+        "answerFigure": "(P^Q)v(P^_Q)v(_P^_Q)"
+    },
+    {
+        "topic": "cp",
+        "ID": 17,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "(P^Q)v(P^_Q)v(_P^Q)",
+        "figure": "fig_circ",
+        "answerFigure": "(P^Q)v(P^_Q)v(_P^Q)"
+    },
+    {
+        "topic": "cp",
+        "ID": 18,
+        "question": "What is the propositional logic statement for this circuit?",
+        "solution": "(P^Q)v(P^_Q)v(_P^Q)v(_P^_Q)",
+        "figure": "fig_circ",
+        "answerFigure": "(P^Q)v(P^_Q)v(_P^Q)v(_P^_Q)"
+    },
+    {
+        "topic": "bo",
+        "ID": 1,
+        "question": "Which is better: O(1) or O(logn)",
+        "solution": "O(1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 2,
+        "question": "Which is better: O(1) or O(n)",
+        "solution": "O(1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 3,
+        "question": "Which is better: O(1) or O(nlogn)",
+        "solution": "O(1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 4,
+        "question": "Which is better: O(1) or O(n^2)",
+        "solution": "O(1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 5,
+        "question": "Which is better: O(1) or O(n^3)",
+        "solution": "O(1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 6,
+        "question": "Which is better: O(1) or O(2^n)",
+        "solution": "O(1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 7,
+        "question": "Which is better: O(logn) or O(1)",
+        "solution": "O(1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 8,
+        "question": "Which is better: O(logn) or O(n)",
+        "solution": "O(logn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 9,
+        "question": "Which is better: O(logn) or O(nlogn)",
+        "solution": "O(logn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 10,
+        "question": "Which is better: O(logn) or O(n^2)",
+        "solution": "O(logn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 11,
+        "question": "Which is better: O(logn) or O(n^3)",
+        "solution": "O(logn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 12,
+        "question": "Which is better: O(logn) or O(2^n)",
+        "solution": "O(logn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 13,
+        "question": "Which is better: O(logn) or O(n!)",
+        "solution": "O(logn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 14,
+        "question": "Which is better: O(n) or O(1)",
+        "solution": "O(1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 15,
+        "question": "Which is better: O(n) or O(logn)",
+        "solution": "O(logn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 16,
+        "question": "Which is better: O(n) or O(nlogn)",
+        "solution": "O(n)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 17,
+        "question": "Which is better: O(n) or O(n^2)",
+        "solution": "O(n)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 18,
+        "question": "Which is better: O(n) or O(n^3)",
+        "solution": "O(n)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 19,
+        "question": "Which is better: O(n) or O(2^n)",
+        "solution": "O(n)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 20,
+        "question": "Which is better: O(n) or O(n!)",
+        "solution": "O(n)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 21,
+        "question": "Which is better: O(nlogn) or O(1)",
+        "solution": "O(1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 22,
+        "question": "Which is better: O(nlogn) or O(logn)",
+        "solution": "O(logn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 23,
+        "question": "Which is better: O(nlogn) or O(n)",
+        "solution": "O(n)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 24,
+        "question": "Which is better: O(nlogn) or O(n^2)",
+        "solution": "O(nlogn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 25,
+        "question": "Which is better: O(nlogn) or O(n^3)",
+        "solution": "O(nlogn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 26,
+        "question": "Which is better: O(nlogn) or O(2^n)",
+        "solution": "O(nlogn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 27,
+        "question": "Which is better: O(nlogn) or O(n!)",
+        "solution": "O(nlogn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 28,
+        "question": "Which is better: O(n^2) or O(1)",
+        "solution": "O(1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 29,
+        "question": "Which is better: O(n^2) or O(logn)",
+        "solution": "O(logn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 30,
+        "question": "Which is better: O(n^2) or O(n)",
+        "solution": "O(n)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 31,
+        "question": "Which is better: O(n^2) or O(nlogn)",
+        "solution": "O(nlogn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 32,
+        "question": "Which is better: O(n^2) or O(n^3)",
+        "solution": "O(n^2)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 33,
+        "question": "Which is better: O(n^2) or O(2^n)",
+        "solution": "O(n^2)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 34,
+        "question": "Which is better: O(n^2) or O(n!)",
+        "solution": "O(n^2)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 35,
+        "question": "Which is better: O(n^3) or O(1)",
+        "solution": "O(1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 36,
+        "question": "Which is better: O(n^3) or O(logn)",
+        "solution": "O(logn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 37,
+        "question": "Which is better: O(n^3) or O(n)",
+        "solution": "O(n)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 38,
+        "question": "Which is better: O(n^3) or O(nlogn)",
+        "solution": "O(nlogn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 39,
+        "question": "Which is better: O(n^3) or O(n^2)",
+        "solution": "O(n^2)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 40,
+        "question": "Which is better: O(n^3) or O(2^n)",
+        "solution": "O(n^3)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 41,
+        "question": "Which is better: O(n^3) or O(n!)",
+        "solution": "O(n^3)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 42,
+        "question": "Which is better: O(2^n) or O(1)",
+        "solution": "O(1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 43,
+        "question": "Which is better: O(2^n) or O(logn)",
+        "solution": "O(logn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 44,
+        "question": "Which is better: O(2^n) or O(n)",
+        "solution": "O(n)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 45,
+        "question": "Which is better: O(2^n) or O(nlogn)",
+        "solution": "O(nlogn)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 46,
+        "question": "Which is better: O(2^n) or O(n^2)",
+        "solution": "O(n^2)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 47,
+        "question": "Which is better: O(2^n) or O(n^3)",
+        "solution": "O(n^3)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "bo",
+        "ID": 48,
+        "question": "Which is better: O(2^n) or O(n!)",
+        "solution": "O(2^n)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "at",
+        "ID": 1,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[-4,-4,-4]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-4]]"
+    },
+    {
+        "topic": "at",
+        "ID": 2,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=-4",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-4]]"
+    },
+    {
+        "topic": "at",
+        "ID": 3,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(1)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-4]]"
+    },
+    {
+        "topic": "at",
+        "ID": 4,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[9,9,9]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[9]]"
+    },
+    {
+        "topic": "at",
+        "ID": 5,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=9",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[9]]"
+    },
+    {
+        "topic": "at",
+        "ID": 6,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(1)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[9]]"
+    },
+    {
+        "topic": "at",
+        "ID": 7,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[64,64,64]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[64]]"
+    },
+    {
+        "topic": "at",
+        "ID": 8,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=64",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[64]]"
+    },
+    {
+        "topic": "at",
+        "ID": 9,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(1)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[64]]"
+    },
+    {
+        "topic": "at",
+        "ID": 10,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[-2,-2,-2]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-2]]"
+    },
+    {
+        "topic": "at",
+        "ID": 11,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=-2",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-2]]"
+    },
+    {
+        "topic": "at",
+        "ID": 12,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(1)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-2]]"
+    },
+    {
+        "topic": "at",
+        "ID": 13,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[6,7,8]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 14,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=n+1",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 15,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(n)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 16,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[4,5,6]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 17,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=n-1",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 18,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(n)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 19,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[11,13,15]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 20,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=2n+1",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 21,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(n)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 22,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[9,11,13]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 23,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=2n-1",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 24,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(n)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 25,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[-9,-11,-13]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 26,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=-2n+1",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 27,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(n)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 28,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[-11,-13,-15]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 29,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=-2n-1",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 30,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(n)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 31,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[36,49,64]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 32,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=n^2+2n+1",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 33,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(n^2)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 34,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[34,47,62]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 35,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=n^2+2n-1",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 36,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(n^2)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 37,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[16,25,36]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,-2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 38,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=n^2-2n+1",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,-2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 39,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(n^2)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,-2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 40,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[14,23,34]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,-2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 41,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=n^2-2n-1",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,-2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 42,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(n^2)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[1,-2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 43,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[-14,-23,-34]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-1,2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 44,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=-n^2+2n+1",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-1,2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 45,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(n^2)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-1,2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 46,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[-16,-25,-36]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-1,2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 47,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=-n^2+2n-1",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-1,2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 48,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(n^2)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-1,2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 49,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[-34,-47,-62]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-1,-2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 50,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=-n^2-2n+1",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-1,-2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 51,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(n^2)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-1,-2,1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 52,
+        "question": "What are the next three outputs based on the table?",
+        "solution": "[-36,-49,-64]",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-1,-2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 53,
+        "question": "What is the equation f(n) for the number of operations?",
+        "solution": "f(n)=-n^2-2n-1",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-1,-2,-1]]"
+    },
+    {
+        "topic": "at",
+        "ID": 54,
+        "question": "What is the Big O Notation for this table?",
+        "solution": "O(n^2)",
+        "figure": "fig_table",
+        "answerFigure": "[[0,5,1],[-1,-2,-1]]"
+    },
+    {
+        "topic": "per",
+        "ID": 1,
+        "question": "What is P(0,0) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 2,
+        "question": "What is P(1,0) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 3,
+        "question": "What is P(1,1) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 4,
+        "question": "What is P(2,0) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 5,
+        "question": "What is P(2,1) without repetition?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 6,
+        "question": "What is P(2,2) without repetition?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 7,
+        "question": "What is P(3,0) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 8,
+        "question": "What is P(3,1) without repetition?",
+        "solution": "3",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 9,
+        "question": "What is P(3,2) without repetition?",
+        "solution": "6",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 10,
+        "question": "What is P(3,3) without repetition?",
+        "solution": "6",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 11,
+        "question": "What is P(4,0) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 12,
+        "question": "What is P(4,1) without repetition?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 13,
+        "question": "What is P(4,2) without repetition?",
+        "solution": "12",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 14,
+        "question": "What is P(4,3) without repetition?",
+        "solution": "24",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 15,
+        "question": "What is P(4,4) without repetition?",
+        "solution": "24",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 16,
+        "question": "What is P(5,0) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 17,
+        "question": "What is P(5,1) without repetition?",
+        "solution": "5",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 18,
+        "question": "What is P(5,2) without repetition?",
+        "solution": "20",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 19,
+        "question": "What is P(5,3) without repetition?",
+        "solution": "60",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 20,
+        "question": "What is P(5,4) without repetition?",
+        "solution": "120",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 21,
+        "question": "What is P(5,5) without repetition?",
+        "solution": "120",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 22,
+        "question": "What is P(0,0)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 23,
+        "question": "What is P(1,0)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 24,
+        "question": "What is P(1,1)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 25,
+        "question": "What is P(2,0)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 26,
+        "question": "What is P(2,1)?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 27,
+        "question": "What is P(2,2)?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 28,
+        "question": "What is P(3,0)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 29,
+        "question": "What is P(3,1)?",
+        "solution": "3",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 30,
+        "question": "What is P(3,2)?",
+        "solution": "6",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 31,
+        "question": "What is P(3,3)?",
+        "solution": "6",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 32,
+        "question": "What is P(4,0)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 33,
+        "question": "What is P(4,1)?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 34,
+        "question": "What is P(4,2)?",
+        "solution": "12",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 35,
+        "question": "What is P(4,3)?",
+        "solution": "24",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 36,
+        "question": "What is P(4,4)?",
+        "solution": "24",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 37,
+        "question": "What is P(5,0)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 38,
+        "question": "What is P(5,1)?",
+        "solution": "5",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 39,
+        "question": "What is P(5,2)?",
+        "solution": "20",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 40,
+        "question": "What is P(5,3)?",
+        "solution": "60",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 41,
+        "question": "What is P(5,4)?",
+        "solution": "120",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 42,
+        "question": "What is P(5,5)?",
+        "solution": "120",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 43,
+        "question": "What is P(0,0) with repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 44,
+        "question": "What is P(1,0) with repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 45,
+        "question": "What is P(1,1) with repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 46,
+        "question": "What is P(2,0) with repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 47,
+        "question": "What is P(2,1) with repetition?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 48,
+        "question": "What is P(2,2) with repetition?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 49,
+        "question": "What is P(3,0) with repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 50,
+        "question": "What is P(3,1) with repetition?",
+        "solution": "3",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 51,
+        "question": "What is P(3,2) with repetition?",
+        "solution": "9",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 52,
+        "question": "What is P(3,3) with repetition?",
+        "solution": "27",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 53,
+        "question": "What is P(4,0) with repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 54,
+        "question": "What is P(4,1) with repetition?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 55,
+        "question": "What is P(4,2) with repetition?",
+        "solution": "16",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 56,
+        "question": "What is P(4,3) with repetition?",
+        "solution": "64",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 57,
+        "question": "What is P(4,4) with repetition?",
+        "solution": "256",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 58,
+        "question": "What is P(5,0) with repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 59,
+        "question": "What is P(5,1) with repetition?",
+        "solution": "5",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 60,
+        "question": "What is P(5,2) with repetition?",
+        "solution": "25",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 61,
+        "question": "What is P(5,3) with repetition?",
+        "solution": "125",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 62,
+        "question": "What is P(5,4) with repetition?",
+        "solution": "625",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "per",
+        "ID": 63,
+        "question": "What is P(5,5) with repetition?",
+        "solution": "3125",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 1,
+        "question": "What is C(0,0) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 2,
+        "question": "What is C(1,0) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 3,
+        "question": "What is C(1,1) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 4,
+        "question": "What is C(2,0) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 5,
+        "question": "What is C(2,1) without repetition?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 6,
+        "question": "What is C(2,2) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 7,
+        "question": "What is C(3,0) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 8,
+        "question": "What is C(3,1) without repetition?",
+        "solution": "3",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 9,
+        "question": "What is C(3,2) without repetition?",
+        "solution": "3",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 10,
+        "question": "What is C(3,3) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 11,
+        "question": "What is C(4,0) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 12,
+        "question": "What is C(4,1) without repetition?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 13,
+        "question": "What is C(4,2) without repetition?",
+        "solution": "6",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 14,
+        "question": "What is C(4,3) without repetition?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 15,
+        "question": "What is C(4,4) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 16,
+        "question": "What is C(5,0) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 17,
+        "question": "What is C(5,1) without repetition?",
+        "solution": "5",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 18,
+        "question": "What is C(5,2) without repetition?",
+        "solution": "10",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 19,
+        "question": "What is C(5,3) without repetition?",
+        "solution": "10",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 20,
+        "question": "What is C(5,4) without repetition?",
+        "solution": "5",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 21,
+        "question": "What is C(5,5) without repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 22,
+        "question": "What is C(0,0)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 23,
+        "question": "What is C(1,0)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 24,
+        "question": "What is C(1,1)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 25,
+        "question": "What is C(2,0)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 26,
+        "question": "What is C(2,1)?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 27,
+        "question": "What is C(2,2)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 28,
+        "question": "What is C(3,0)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 29,
+        "question": "What is C(3,1)?",
+        "solution": "3",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 30,
+        "question": "What is C(3,2)?",
+        "solution": "3",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 31,
+        "question": "What is C(3,3)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 32,
+        "question": "What is C(4,0)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 33,
+        "question": "What is C(4,1)?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 34,
+        "question": "What is C(4,2)?",
+        "solution": "6",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 35,
+        "question": "What is C(4,3)?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 36,
+        "question": "What is C(4,4)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 37,
+        "question": "What is C(5,0)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 38,
+        "question": "What is C(5,1)?",
+        "solution": "5",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 39,
+        "question": "What is C(5,2)?",
+        "solution": "10",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 40,
+        "question": "What is C(5,3)?",
+        "solution": "10",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 41,
+        "question": "What is C(5,4)?",
+        "solution": "5",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 42,
+        "question": "What is C(5,5)?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 43,
+        "question": "What is C(0,0) with repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 44,
+        "question": "What is C(1,0) with repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 45,
+        "question": "What is C(1,1) with repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 46,
+        "question": "What is C(2,0) with repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 47,
+        "question": "What is C(2,1) with repetition?",
+        "solution": "2",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 48,
+        "question": "What is C(2,2) with repetition?",
+        "solution": "3",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 49,
+        "question": "What is C(3,0) with repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 50,
+        "question": "What is C(3,1) with repetition?",
+        "solution": "3",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 51,
+        "question": "What is C(3,2) with repetition?",
+        "solution": "6",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 52,
+        "question": "What is C(3,3) with repetition?",
+        "solution": "10",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 53,
+        "question": "What is C(4,0) with repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 54,
+        "question": "What is C(4,1) with repetition?",
+        "solution": "4",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 55,
+        "question": "What is C(4,2) with repetition?",
+        "solution": "10",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 56,
+        "question": "What is C(4,3) with repetition?",
+        "solution": "20",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 57,
+        "question": "What is C(4,4) with repetition?",
+        "solution": "35",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 58,
+        "question": "What is C(5,0) with repetition?",
+        "solution": "1",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 59,
+        "question": "What is C(5,1) with repetition?",
+        "solution": "5",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 60,
+        "question": "What is C(5,2) with repetition?",
+        "solution": "15",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 61,
+        "question": "What is C(5,3) with repetition?",
+        "solution": "35",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 62,
+        "question": "What is C(5,4) with repetition?",
+        "solution": "70",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "com",
+        "ID": 63,
+        "question": "What is C(5,5) with repetition?",
+        "solution": "126",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 1,
+        "question": "Does order matter for P(n,r)? yes/no",
+        "solution": "yes",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 2,
+        "question": "Does order matter for permutations? yes/no",
+        "solution": "yes",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 3,
+        "question": "Does order matter for C(n,r)? yes/no",
+        "solution": "no",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 4,
+        "question": "Does order matter for combinations? yes/no",
+        "solution": "no",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 5,
+        "question": "What is the equation for permutaions with repeats?",
+        "solution": "P(n,r)=n^r",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 6,
+        "question": "What is the equation for permutaions without repeats?",
+        "solution": "P(n,r)=(n!)/(n-r)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 7,
+        "question": "What is the equation for combinations with repeats?",
+        "solution": "C(n,r)=(r+n-1)!/((n-1)!*r!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 8,
+        "question": "What is the equation for combinations without repeats?",
+        "solution": "C(n,r)=(n!)/((n-r)!*r!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 9,
+        "question": "Suppose a procedure can be brokenn down into a sequence of two tasks. If there are n1 ways to do the first task and for each of these ways of doing the first task, there are n2 ways to do the second task, then there are n1*n2 ways to do the procedure. Select the Rule: product, sum, subtraction, or division:",
+        "solution": "product",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 10,
+        "question": "If a task can be done either in one of n1 ways or in one of n2 ways, where none of the set of n1 ways is the same as any of the set of n2 ways, then there are n1 + n2 ways to do the task. Select the Rule: product, sum, subtraction, or division:",
+        "solution": "product",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 11,
+        "question": "If a task can be done in either n1 ways or n2 ways, then the number of ways to do the task is n1 + n2 minus the number of ways to do the task that are common to the two different ways. Select the Rule: product, sum, subtraction, or division:",
+        "solution": "product",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 12,
+        "question": "There are n/d ways to do a task if it can be done using a procedure that can be carried out in n ways, and for every way w, exactly d of the n wys correspond to way w. Select the Rule: product, sum, subtraction, or division:",
+        "solution": "product",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 13,
+        "question": "Given only P(n,r), are repeats assumed? T/F",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 14,
+        "question": "Given only P(n,r), are no repeats assumed? T/F",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 15,
+        "question": "Given only C(n,r), are repeats assumed? T/F",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 16,
+        "question": "Given only C(n,r), are no repeats assumed? T/F",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 17,
+        "question": "Given only P(4,3), are repeats assumed? T/F",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 18,
+        "question": "Given only P(4,3), are no repeats assumed? T/F",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 19,
+        "question": "Given only C(4,3), are repeats assumed? T/F",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 20,
+        "question": "Given only C(4,3), are no repeats assumed? T/F",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 21,
+        "question": "P(n,r) >  C(n,r) Select: T/F",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 22,
+        "question": "P(n,r) >= C(n,r) Select: T/F",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 23,
+        "question": "P(n,r) <  C(n,r) Select: T/F",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 24,
+        "question": "P(n,r) <= C(n,r) Select: T/F",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 25,
+        "question": "C(n,r) >  P(n,r) Select: T/F",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 26,
+        "question": "C(n,r) >= P(n,r) Select: T/F",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 27,
+        "question": "C(n,r) <  P(n,r) Select: T/F",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 28,
+        "question": "C(n,r) <= P(n,r) Select: T/F",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 29,
+        "question": "P(5,3) >  C(5,3) Select: T/F",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 30,
+        "question": "P(5,3) >= C(5,3) Select: T/F",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 31,
+        "question": "P(5,3) <  C(5,3) Select: T/F",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 32,
+        "question": "P(5,3) <= C(5,3) Select: T/F",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 33,
+        "question": "C(5,3) >  P(5,3) Select: T/F",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 34,
+        "question": "C(5,3) >= P(5,3) Select: T/F",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 35,
+        "question": "C(5,3) <  P(5,3) Select: T/F",
+        "solution": "T",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 36,
+        "question": "C(5,3) <= P(5,3) Select: T/F",
+        "solution": "F",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 37,
+        "question": "what is the relationship between P(n,r) without repetition using cobinations and permutations?",
+        "solution": "P(n,r)=C(n,r)*P(r,r)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 38,
+        "question": "what is the relationship between P(2,1) without repetition using cobinations and permutations?",
+        "solution": "P(2,1)=C(2,1)*P(1,1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 39,
+        "question": "what is the relationship between P(2,2) using cobinations and permutations?",
+        "solution": "P(2,2)=C(2,2)*P(2,2)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 40,
+        "question": "what is the relationship between P(3,1) without repetition using cobinations and permutations?",
+        "solution": "P(3,1)=C(3,1)*P(1,1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 41,
+        "question": "what is the relationship between P(3,2) using cobinations and permutations?",
+        "solution": "P(3,2)=C(3,2)*P(2,2)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 42,
+        "question": "what is the relationship between P(3,3) without repetition using cobinations and permutations?",
+        "solution": "P(3,3)=C(3,3)*P(3,3)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 43,
+        "question": "what is the relationship between P(4,1) using cobinations and permutations?",
+        "solution": "P(4,1)=C(4,1)*P(1,1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 44,
+        "question": "what is the relationship between P(4.2) without repetition using cobinations and permutations?",
+        "solution": "P(4,2)=C(4,2)*P(2,2)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 45,
+        "question": "what is the relationship between P(4,3) using cobinations and permutations?",
+        "solution": "P(4,3)=C(4,3)*P(3,3)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 46,
+        "question": "what is the relationship between P(4,4) without repetition using cobinations and permutations?",
+        "solution": "P(4,4)=C(4,4)*P(4,4)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 47,
+        "question": "what is the relationship between P(5,1) using cobinations and permutations?",
+        "solution": "P(5,1)=C(5,1)*P(1,1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 48,
+        "question": "what is the relationship between P(5,2) without repetition using cobinations and permutations?",
+        "solution": "P(5,2)=C(5,2)*P(2,2)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 49,
+        "question": "what is the relationship between P(5,3) using cobinations and permutations?",
+        "solution": "P(5,3)=C(5,3)*P(3,3)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 50,
+        "question": "what is the relationship between P(5,4) without repetition using cobinations and permutations?",
+        "solution": "P(5,4)=C(5,4)*P(4,4)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 51,
+        "question": "what is the relationship between P(5,5) using cobinations and permutations?",
+        "solution": "P(5,5)=C(5,5)*P(5,5)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 52,
+        "question": "what is the relationship between C(n,r) without repetition using permutations only?",
+        "solution": "C(n,r)=P(n,r)/P(r,r)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 53,
+        "question": "what is the relationship between C(2,1)  using permutations only?",
+        "solution": "C(2,1)=P(2,1)/P(1,1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 54,
+        "question": "what is the relationship between C(2,2) without repetition using permutations only?",
+        "solution": "C(2,2)=P(2,2)/P(2,2)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 55,
+        "question": "what is the relationship between C(3,1)  using permutations only?",
+        "solution": "C(3,1)=P(3,1)/P(1,1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 56,
+        "question": "what is the relationship between C(3,2) without repetition using permutations only?",
+        "solution": "C(3,2)=P(3,2)/P(2,2)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 57,
+        "question": "what is the relationship between C(3,3)  using permutations only?",
+        "solution": "C(3,3)=P(3,3)/P(3,3)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 58,
+        "question": "what is the relationship between C(4,1) without repetition using permutations only?",
+        "solution": "C(4,1)=P(4,1)/P(1,1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 59,
+        "question": "what is the relationship between C(4.2)  using permutations only?",
+        "solution": "C(4,2)=P(4,2)/P(2,2)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 60,
+        "question": "what is the relationship between C(4,3) without repetition using permutations only?",
+        "solution": "C(4,3)=P(4,3)/P(3,3)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 61,
+        "question": "what is the relationship between C(4,4)  using permutations only?",
+        "solution": "C(4,4)=P(4,4)/P(4,4)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 62,
+        "question": "what is the relationship between C(5,1) without repetition using permutations only?",
+        "solution": "C(5,1)=P(5,1)/P(1,1)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 63,
+        "question": "what is the relationship between C(5,2)  using permutations only?",
+        "solution": "C(5,2)=P(5,2)/P(2,2)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 64,
+        "question": "what is the relationship between C(5,3) without repetition using permutations only?",
+        "solution": "C(5,3)=P(5,3)/P(3,3)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 65,
+        "question": "what is the relationship between C(5,4)  using permutations only?",
+        "solution": "C(5,4)=P(5,4)/P(4,4)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 66,
+        "question": "what is the relationship between C(5,5) without repetition using permutations only?",
+        "solution": "C(5,5)=P(5,5)/P(5,5)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 67,
+        "question": "what is the equation for P(2,1) without repetition?",
+        "solution": "P(2,1)=(2!)/(2-1)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 68,
+        "question": "what is the equation for P(2,2)?",
+        "solution": "P(2,2)=(2!)/(2-2)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 69,
+        "question": "what is the equation for P(3,1) without repetition?",
+        "solution": "P(3,1)=(3!)/(3-1)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 70,
+        "question": "what is the equation for P(3,2)?",
+        "solution": "P(3,2)=(3!)/(3-2)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 71,
+        "question": "what is the equation for P(3,3) without repetition?",
+        "solution": "P(3,3)=(3!)/(3-3)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 72,
+        "question": "what is the equation for P(4,1)?",
+        "solution": "P(4,1)=(4!)/(4-1)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 73,
+        "question": "what is the equation for P(4.2) without repetition?",
+        "solution": "P(4,2)=(4!)/(4-2)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 74,
+        "question": "what is the equation for P(4,3)?",
+        "solution": "P(4,3)=(4!)/(4-3)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 75,
+        "question": "what is the equation for P(4,4) without repetition?",
+        "solution": "P(4,4)=(4!)/(4-4)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 76,
+        "question": "what is the equation for P(5,1)?",
+        "solution": "P(5,1)=(5!)/(5-1)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 77,
+        "question": "what is the equation for P(5,2) without repetition?",
+        "solution": "P(5,2)=(5!)/(5-2)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 78,
+        "question": "what is the equation for P(5,3)?",
+        "solution": "P(5,3)=(5!)/(5-3)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 79,
+        "question": "what is the equation for P(5,4) without repetition?",
+        "solution": "P(5,4)=(5!)/(5-4)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 80,
+        "question": "what is the equation for P(5,5)?",
+        "solution": "P(5,5)=(5!)/(5-5)!",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 81,
+        "question": "what is the equation for C(2,1)?",
+        "solution": "C(2,1)=(2!)/((2-1)!*1!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 82,
+        "question": "what is the equation for C(2,2) without repetition?",
+        "solution": "C(2,2)=(2!)/((2-2)!*2!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 83,
+        "question": "what is the equation for C(3,1)?",
+        "solution": "C(3,1)=(3!)/((3-1)!*1!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 84,
+        "question": "what is the equation for C(3,2) without repetition?",
+        "solution": "C(3,2)=(3!)/((3-2)!*2!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 85,
+        "question": "what is the equation for C(3,3)?",
+        "solution": "C(3,3)=(3!)/((3-3)!*3!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 86,
+        "question": "what is the equation for C(4,1) without repetition?",
+        "solution": "C(4,1)=(4!)/((4-1)!*1!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 87,
+        "question": "what is the equation for C(4.2)?",
+        "solution": "C(4,2)=(4!)/((4-2)!*2!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 88,
+        "question": "what is the equation for C(4,3) without repetition?",
+        "solution": "C(4,3)=(4!)/((4-3)!*3!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 89,
+        "question": "what is the equation for C(4,4)?",
+        "solution": "C(4,4)=(4!)/((4-4)!*4!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 90,
+        "question": "what is the equation for C(5,1) without repetition?",
+        "solution": "C(5,1)=(5!)/((5-1)!*1!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 91,
+        "question": "what is the equation for C(5,2)?",
+        "solution": "C(5,2)=(5!)/((5-2)!*2!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 92,
+        "question": "what is the equation for C(5,3) without repetition?",
+        "solution": "C(5,3)=(5!)/((5-3)!*3!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 93,
+        "question": "what is the equation for C(5,4)?",
+        "solution": "C(5,4)=(5!)/((5-4)!*4!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    },
+    {
+        "topic": "pcf",
+        "ID": 94,
+        "question": "what is the equation for C(5,5) without repetition?",
+        "solution": "C(5,5)=(5!)/((5-5)!*5!)",
+        "figure": "fig_venn3",
+        "answerFigure": "nofig"
+    }
+]

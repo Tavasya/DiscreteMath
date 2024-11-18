@@ -9,28 +9,49 @@ interface Question {
   id: number;
   topic: string;
   question: string;
-  options: string[];
-  correctAnswer: number;
+  imageUrl?: string;
+  imageAlt?: string;
 }
 
 const generateRandomQuestions = (topics: string[], questionsPerTopic: number): Question[] => {
   let questions: Question[] = [];
   let id = 1;
 
+  // Sample graph theory visual
+  const graphTheoryImage = "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=800&h=600";
+
   topics.forEach(topic => {
     for (let i = 0; i < questionsPerTopic; i++) {
-      questions.push({
+      let question: Question = {
         id: id++,
         topic,
-        question: `Sample question ${i + 1} for ${topic}?`,
-        options: [
-          `Option A for ${topic}`,
-          `Option B for ${topic}`,
-          `Option C for ${topic}`,
-          `Option D for ${topic}`,
-        ],
-        correctAnswer: Math.floor(Math.random() * 4),
-      });
+        question: ''
+      };
+
+      // Set question based on topic
+      switch (true) {
+        case topic.includes('Graph Theory'):
+          question.question = 'Given the graph above, write the adjacency matrix for this graph:';
+          question.imageUrl = graphTheoryImage;
+          question.imageAlt = 'A directed graph with vertices A through E and weighted edges';
+          break;
+        case topic.includes('Set Theory'):
+          question.question = 'Express the following set in roster notation: The set of all even numbers less than 10';
+          break;
+        case topic.includes('Logic'):
+          question.question = 'Write the negation of the statement: "For all x, if x is prime, then x is odd"';
+          break;
+        case topic.includes('Proofs'):
+          question.question = 'Prove by contradiction that √2 is irrational';
+          break;
+        case topic.includes('Counting'):
+          question.question = 'How many different 4-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition? Show your work.';
+          break;
+        default:
+          question.question = `Write a detailed answer for ${topic}`;
+      }
+
+      questions.push(question);
     }
   });
 
@@ -42,7 +63,7 @@ const PracticeTest = () => {
   const [isSelecting, setIsSelecting] = useState(true);
   const [isTestMode, setIsTestMode] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [userAnswers, setUserAnswers] = useState<Record<number, number>>({});
+  const [userAnswers, setUserAnswers] = useState<Record<number, string>>({});
   const [questions, setQuestions] = useState<Question[]>([]);
   const [slideDirection, setSlideDirection] = useState<'left' | 'right'>('right');
   const [bookmarkedQuestions, setBookmarkedQuestions] = useState<Set<number>>(new Set());
@@ -66,10 +87,10 @@ const PracticeTest = () => {
     }
   };
 
-  const handleAnswer = (optionIndex: number) => {
+  const handleAnswer = (answer: string) => {
     setUserAnswers(prev => ({
       ...prev,
-      [questions[currentQuestionIndex].id]: optionIndex
+      [questions[currentQuestionIndex].id]: answer
     }));
   };
 
@@ -134,6 +155,7 @@ const PracticeTest = () => {
               onQuestionSelect={handleQuestionSelect}
               isTestMode={isTestMode}
               bookmarkedQuestions={bookmarkedQuestions}
+              questions={questions}
             />
 
             <div className={`flex-1 bg-gray-50 rounded-xl p-8 ${isTestMode ? 'border border-red-100' : ''}`}>

@@ -4,14 +4,14 @@ interface Question {
   id: number;
   topic: string;
   question: string;
-  options: string[];
-  correctAnswer: number;
+  imageUrl?: string;
+  imageAlt?: string;
 }
 
 interface QuestionSlideProps {
   question: Question;
-  userAnswer?: number;
-  onAnswer: (index: number) => void;
+  userAnswer?: string;
+  onAnswer: (answer: string) => void;
   isTestMode: boolean;
   direction: 'left' | 'right';
 }
@@ -24,12 +24,25 @@ const QuestionSlide: React.FC<QuestionSlideProps> = ({
   direction,
 }) => {
   const [isAnimating, setIsAnimating] = useState(false);
+  const [inputValue, setInputValue] = useState(userAnswer || '');
 
   useEffect(() => {
     setIsAnimating(true);
     const timer = setTimeout(() => setIsAnimating(false), 300);
     return () => clearTimeout(timer);
   }, [question.id]);
+
+  useEffect(() => {
+    setInputValue(userAnswer || '');
+  }, [userAnswer]);
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setInputValue(e.target.value);
+  };
+
+  const handleInputBlur = () => {
+    onAnswer(inputValue);
+  };
 
   return (
     <div
@@ -46,24 +59,37 @@ const QuestionSlide: React.FC<QuestionSlideProps> = ({
         <p className="text-gray-600 text-sm">Topic: {question.topic}</p>
       </div>
 
-      <div className="space-y-4">
-        {question.options.map((option, index) => (
-          <button
-            key={index}
-            onClick={() => onAnswer(index)}
-            className={`w-full text-left p-4 rounded-lg transition-colors ${
-              userAnswer === index
-                ? isTestMode
-                  ? 'bg-red-600 text-white'
-                  : 'bg-gray-900 text-white'
-                : isTestMode
-                ? 'bg-red-50 hover:bg-red-100 text-gray-900'
-                : 'bg-gray-100 hover:bg-gray-200 text-gray-900'
-            }`}
-          >
-            {option}
-          </button>
-        ))}
+      {question.imageUrl && (
+        <div className="mb-6">
+          <img
+            src={question.imageUrl}
+            alt={question.imageAlt || 'Question visual'}
+            className="max-w-full h-auto rounded-lg border border-gray-200"
+          />
+        </div>
+      )}
+
+      <div className="space-y-2">
+        <textarea
+          value={inputValue}
+          onChange={handleInputChange}
+          onBlur={handleInputBlur}
+          placeholder="Enter your answer here..."
+          className={`w-full h-48 p-4 rounded-lg transition-colors resize-none font-mono ${
+            isTestMode
+              ? 'bg-red-50 border-red-200 focus:border-red-300 focus:ring-red-200'
+              : 'bg-gray-100 border-gray-200 focus:border-gray-300 focus:ring-gray-200'
+          } border-2 focus:outline-none focus:ring-2`}
+        />
+        <div className="text-sm text-gray-600 space-y-1">
+          <p>Tips:</p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>Use mathematical notation (∪, ∩, ∈, ⊆, etc.)</li>
+            <li>For matrices, use [ ] and separate rows with newlines</li>
+            <li>For sets, use { } and separate elements with commas</li>
+            <li>Show all your work and steps clearly</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
