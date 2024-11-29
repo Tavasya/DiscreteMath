@@ -1,6 +1,8 @@
 import json
 import os
 
+
+#questions
 questions_dict = {'vb':[# Venn to the Bit Stream (complete)
                         ['What is the Bit Stream for section a?','100',"fig_venn3",'abc'],
                         ['What is the Bit Stream for section b?','010',"""fig_venn3""",'abc'],
@@ -853,6 +855,10 @@ questions_dict = {'vb':[# Venn to the Bit Stream (complete)
 
 
 
+
+
+
+#convert to JSON
 structuredData = []
 for topic, questions in questions_dict.items():
     for id, questionData in enumerate(questions):
